@@ -1,16 +1,18 @@
 import React from "react";
-
+import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Header() {
-    return (
-        <div className="seatedImg">
-            <div className="headerText">
-                <h1 className="helloWorld">Hello World. I'm Jayme, and I carve out corners of the internet where dreams come true. One step at a time.</h1>
-                
-            </div>
-            {/* <img className="seated-img" alt="business woman seated on a blue bench outside" src="./images/seated-soft.jpg"/> */}
-        </div>
-    )
+  return (
+    <div className="bg">
+        <div className="layer"></div>
+      <div className="headerText">
+        <h1 className="name">Jayme Mizelle</h1>
+        <p>Software Developer</p>
+        <Button className="viewWorkBtn" variant="light">View My Work</Button>
+      </div>
+    </div>
+  );
 }
 
 export default Header;

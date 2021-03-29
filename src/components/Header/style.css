@@ -2,30 +2,48 @@ html {
   margin: 0;
 }
 
-.seatedImg {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: url("./seated-soft.jpg");
+.bg {
+  -webkit-clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 85%, 0% 100%, 0% 100%, 0 50%);
+          clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 85%, 0% 100%, 0% 100%, 0 50%);
+  position: relative;
+  margin: 15px 20px 0 20px;
+  background-image: url("./networkGif.gif");
   background-size: cover;
-  height: 900px;
+  height: 650px;
   background-position: center;
   background-attachment: fixed;
 }
 
+.layer {
+  background-color: rgba(10, 10, 10, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
 .headerText {
+  text-transform: uppercase;
   text-shadow: 1px 1px 0px #0c0c0c;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: large;
   color: #fafbfc;
   margin: 0;
   position: fixed;
-  top: 90%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.helloWorld {
-  font-size: xx-large;
+.viewWorkBtn {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
