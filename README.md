@@ -1,6 +1,6 @@
 
 
-# Jayme Develops
+# Developer Portfolio
 
 ## Description
 This is a responsive, dynamic Portfolio designed to showcase my projects and online presence as a developer. This web application is built with React.js and Bootstrap Components.
