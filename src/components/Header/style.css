@@ -15,7 +15,7 @@ html {
 }
 
 .layer {
-  background-color: rgba(10, 10, 10, 0.7);
+  background-color: rgba(43, 12, 46, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -45,5 +45,10 @@ html {
 
 .viewWorkBtn {
   border-radius: 50%;
+}
+
+.viewWorkBtn:hover, .viewWorkBtn:focus, .viewWorkBtn:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.9);
 }
 /*# sourceMappingURL=style.css.map */
