@@ -1,3 +1,5 @@
+@import "../utils/style.scss";
+
 html {
   margin: 0;
 }
@@ -7,6 +9,7 @@ body {
 }
 
 .bg {
+  @include background;
   clip-path: polygon(
     0 0%,
     0% 0%,
@@ -17,22 +20,21 @@ body {
     0% 100%,
     0 50%
   );
-  position: relative;
   margin: 15px 20px 0 20px;
   background-image: url("./networkGif.gif");
-  background-size: cover;
   height: 650px;
-  background-position: center;
-  background-attachment: fixed;
+ 
 }
 
 .layer {
-  background-color: rgba(43, 12, 46, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  @include bgFilm;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  margin-left: 10px;
 }
 
 .name {
@@ -48,7 +50,7 @@ body {
   font-size: large;
   color: #fafbfc;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);

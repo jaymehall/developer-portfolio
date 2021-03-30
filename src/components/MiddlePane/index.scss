@@ -1,5 +1,37 @@
+@import "../utils/style.scss";
+
 .title {
     text-align: center;
+    margin-top: 40px;
     margin-bottom: 10px;
     transform: translate(-0%, -50%);
 }
+
+.introText {
+    margin: 0 400px 50px 400px;
+}
+
+.middleBg {
+    @include background;
+    clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 100%, 5% 100%, 0 100%);
+    background-image: url("https://image.freepik.com/free-vector/blue-neural-network-illustration_53876-78754.jpg");
+    background-repeat: no-repeat;
+    width: 80%;
+    height:500px;
+    margin: 0 100px 50px 100px;
+}
+
+.film {
+    @include bgFilm;
+}
+
+.container {
+    display: flex;
+}
+
+.techBox {
+    height: 200px;
+    width: 100px;
+    background-color: rgb(127, 128, 129, 0.9);
+}
+

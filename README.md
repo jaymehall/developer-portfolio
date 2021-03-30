@@ -29,7 +29,7 @@ Click on the deployed link above to browse my projects, view my resume, and more
 * JavaScript 
 * Node Js  
 * React.js 
-* CSS3/Saas 
+* CSS3/Saas/Scss
 * Bootstrap/React-Bootstrap
 
 ## License
