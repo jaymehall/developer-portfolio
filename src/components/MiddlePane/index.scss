@@ -25,13 +25,10 @@
     @include bgFilm;
 }
 
-.container {
-    display: flex;
+.wrapper {
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.techBox {
-    height: 200px;
-    width: 100px;
-    background-color: rgb(127, 128, 129, 0.9);
-}
 

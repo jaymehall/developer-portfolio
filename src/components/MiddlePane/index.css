@@ -33,15 +33,9 @@
   height: 100%;
 }
 
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.techBox {
-  height: 200px;
-  width: 100px;
-  background-color: #7f8081;
+.wrapper {
+  padding-top: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=index.css.map */
