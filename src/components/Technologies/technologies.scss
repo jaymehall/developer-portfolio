@@ -1,0 +1,31 @@
+@import "../utils/style.scss";
+
+.middleBg {
+  @include background;
+  clip-path: polygon(
+    0% 5%,
+    0% 20%,
+    100% 0%,
+    100% 5%,
+    100% 100%,
+    100% 100%,
+    5% 100%,
+    0 100%
+  );
+  background-image: url("https://image.freepik.com/free-vector/blue-neural-network-illustration_53876-78754.jpg");
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 500px;
+  margin: 0 100px 50px 100px;
+}
+
+.film {
+  @include bgFilm;
+}
+
+.wrapper {
+  padding-top: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
