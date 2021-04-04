@@ -3,12 +3,12 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  -webkit-clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 100%, 5% 100%, 0 100%);
-          clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 100%, 5% 100%, 0 100%);
+  -webkit-clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 100%, 0 100%);
+          clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 100%, 0 100%);
   background-image: url("https://image.freepik.com/free-vector/blue-neural-network-illustration_53876-78754.jpg");
   background-repeat: no-repeat;
   width: 80%;
-  height: 500px;
+  height: 600px;
   margin: 20px 100px 50px 100px;
 }
 
@@ -37,10 +37,18 @@
 
 @media only screen and (max-width: 1424px) {
   .middleBg {
-    height: 920px;
+    height: 1000px;
+    -webkit-clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 100%, 0 100%);
+            clip-path: polygon(0% 5%, 0% 20%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 100%, 0 100%);
   }
-  .middleBg .wrapper {
+  .wrapper {
     padding-top: 190px;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .middleBg {
+    height: 1800px;
   }
 }
 
