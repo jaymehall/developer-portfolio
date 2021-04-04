@@ -1,14 +1,14 @@
 @import "../utils/style.scss";
 
 .title {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    transform: translate(-0%, -50%);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  transform: translate(-0%, -50%);
 }
 
 .introText {
-    margin: 0 400px 50px 400px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
-
-
