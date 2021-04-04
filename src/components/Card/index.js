@@ -9,11 +9,9 @@ function Boxes(props) {
         <Card.Body>
           <Card.Title>{props.heading}</Card.Title>
           <Card.Text>
-            <ul>
-                <li>{props.child1}</li>
-                <li>{props.child2}</li>
-                <li>{props.child3}</li>
-            </ul>
+                <p>{props.child1}</p>
+                <p>{props.child2}</p>
+                <p>{props.child3}</p>
           </Card.Text>
         </Card.Body>
       </Card>

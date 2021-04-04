@@ -1,8 +1,5 @@
-li {
-  list-style-type: none;
-}
-
-.card {
-  width: 25%;
+.card-columns {
+  -webkit-column-count: 1;
+          column-count: 1;
 }
 /*# sourceMappingURL=index.css.map */
