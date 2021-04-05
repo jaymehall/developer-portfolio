@@ -3,13 +3,27 @@
 .title {
   text-transform: uppercase;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 10px;
   transform: translate(-0%, -50%);
+}
+
+.sectionTitle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secondSection {
+    margin-top: 40px;
 }
 
 .introText {
   width: 50%;
   display: block;
   margin: 0 auto;
+}
+.middleText {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
