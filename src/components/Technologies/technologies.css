@@ -52,6 +52,12 @@
   }
 }
 
+@media (max-width: 1319px) and (min-width: 1310px) {
+  .middleBg {
+    height: 900px;
+  }
+}
+
 @media only screen and (max-width: 774px) {
   .middleBg {
     -webkit-clip-path: polygon(0% 5%, 0% 7%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 95%, 0 100%);

@@ -41,12 +41,11 @@
 }
 
 // Desktops b/w 1307px and 1319px
-// @media only screen and (min width: 1307, max-width: 1319px){ 
-//   .middleBg {
-//     height: 860px;
-//     width: 95%;
-//   }
-// }
+@media (max-width: 1319px) and (min-width: 1310px){ 
+  .middleBg {
+    height: 900px;
+  }
+}
 
 // iPad
 @media only screen and (max-width: 774px){ 
