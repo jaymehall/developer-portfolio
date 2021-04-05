@@ -1,0 +1,36 @@
+.projectsTitle {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.projectsContainer {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.projectsContainer div.text-center.card {
+  padding: 0;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.projectsContainer .card-body {
+    padding: 0;
+}
+
+.projectsContainer div.text-center.card {
+    height: 370px;
+}
+
+.projectsContainer div.cardTitle.card-title.h5 {
+    text-shadow: 3px 3px 0px #0a0a0a;
+    color: white;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/116/047/small/blue-chemical-formula-background.jpg");
+    background-color: rgb(56, 2, 56);
+    background-blend-mode: screen;
+    padding: 30px 0 50px 0;
+    clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 77%, 0% 100%, 0% 100%, 0 50%);
+}
+

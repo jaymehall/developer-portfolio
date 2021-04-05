@@ -2,3 +2,18 @@
 .card-columns {
     column-count: 1;
 }
+
+.cardTitle {
+    text-transform: uppercase;
+}
+
+.card-columns .card {
+    padding: 20px;
+    width: 260px;
+    margin: 20px;
+}
+
+.icon {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}

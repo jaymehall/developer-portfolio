@@ -1,13 +1,15 @@
 import React from "react";
 import { CardColumns, Card } from "react-bootstrap";
 import "./index.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Boxes(props) {
+function Box(props) {
   return (
     <CardColumns>
       <Card className="text-center card">
         <Card.Body>
-          <Card.Title>{props.heading}</Card.Title>
+        <FontAwesomeIcon className="icon" icon={props.icon} />
+          <Card.Title className="cardTitle">{props.heading}</Card.Title>
           <Card.Text>
             <p>{props.child1}</p>
             <p>{props.child2}</p>
@@ -21,4 +23,4 @@ function Boxes(props) {
   );
 }
 
-export default Boxes;
+export default Box;

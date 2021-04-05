@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .bg {
@@ -19,7 +19,7 @@ body {
 }
 
 .layer {
-  background-color: rgba(43, 12, 46, 0.7);
+  background-color: rgba(67, 76, 129, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -27,10 +27,15 @@ body {
   height: 100%;
 }
 
+.iconLogo {
+  font-size: 2.5rem;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+
 .logo {
   color: white;
-  font-weight: bold;
-  font-size: medium;
+  text-align: left;
   margin-left: 10px;
 }
 
@@ -58,7 +63,9 @@ body {
   border-radius: 25px;
 }
 
-.viewWorkBtn:hover, .viewWorkBtn:focus, .viewWorkBtn:active {
+.viewWorkBtn:hover,
+.viewWorkBtn:focus,
+.viewWorkBtn:active {
   -webkit-transform: scale(0.8);
   transform: scale(0.9);
 }
