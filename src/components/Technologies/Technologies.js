@@ -1,14 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Boxes from "../Card";
-import "./technologies.css"
+import Box from "../Card";
+import "./technologies.css";
+import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
+import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 
 function Technologies () {
     return (
         <div className="middleBg">
             <div className="film"></div>
             <div className="wrapper">
-                <Boxes className="techBox"
+                <Box className="techBox"
+                icon={faNetworkWired}
                 heading="Front end"
                 child1="HTML5"
                 child2="CSS3 | SASS"
@@ -16,7 +21,8 @@ function Technologies () {
                 child4="Bootstrap | Tailwind CSS"
                 child5="React | Context API"
                 />
-                <Boxes className="techBox"
+                <Box className="techBox"
+                icon={faDatabase}
                 heading="Back End"
                 child1="Node JS"
                 child2="Express"
@@ -24,7 +30,8 @@ function Technologies () {
                 child4="MongoDB"
                 child5="Handlebars.js"
                 />
-                <Boxes className="techBox"
+                <Box className="techBox"
+                icon={faServer}
                 heading="Deployment"
                 child1="Gulp"
                 child2="Heroku"
@@ -32,7 +39,8 @@ function Technologies () {
                 child4="Gh Pages"
                 child5="DNN .NET CMS"
                 />
-                <Boxes className="techBox"
+                <Box className="techBox"
+                icon={faCodeBranch}
                 heading="Tools"
                 child1="Git"
                 child2="Kanban"
