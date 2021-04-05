@@ -40,10 +40,17 @@
   }
 }
 
-// Desktops b/w 1307px and 1319px
+// Small desktops
 @media (max-width: 1319px) and (min-width: 1310px){ 
   .middleBg {
     height: 900px;
+  }
+}
+
+// For correcting right margin being too small in this screen size
+@media (max-width: 1137px) and (min-width: 767px){
+  .middleBg {
+    width: 95%;
   }
 }
 
