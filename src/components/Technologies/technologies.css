@@ -45,7 +45,7 @@
     height: 1200px;
     -webkit-clip-path: polygon(0% 5%, 0% 10%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 98%, 0 100%);
             clip-path: polygon(0% 5%, 0% 10%, 100% 0%, 100% 5%, 100% 100%, 100% 90%, 0% 98%, 0 100%);
-    width: 95%;
+    width: 96%;
   }
   .wrapper {
     padding-top: 190px;
