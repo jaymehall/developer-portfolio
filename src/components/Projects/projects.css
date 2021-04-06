@@ -6,7 +6,8 @@
 }
 
 .projectsContainer {
-  margin-bottom: 50px;
+  height: 400px;
+  margin-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

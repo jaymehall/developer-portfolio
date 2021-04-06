@@ -44,9 +44,16 @@
     border-color: rgb(94, 92, 92);
     margin: 20px;
     transform: rotateY(180deg);
+    background-color: rgba(67, 76, 129, 0.7)
   }
 
   .cardBackContent {
-    margin-top: 50%;
+    margin-top: 35%;
+    padding: 10px;
     text-align: center;
+  }
+
+  .description {
+    color: white;
+    margin-bottom: 20px;
   }

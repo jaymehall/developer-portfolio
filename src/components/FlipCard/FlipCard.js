@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import "./flipCard.css";
 import Box from "../Card";
 
-function FlipCard({ icon, heading, child1, child2, child3, child4, child5 }) {
+function FlipCard({ icon, heading, child1, child2, child3, child4, child5, description }) {
   return (
     <div className="flipCard">
       <div className="flipCardInner">
@@ -20,7 +20,7 @@ function FlipCard({ icon, heading, child1, child2, child3, child4, child5 }) {
         </div>
         <div className="flipCardBack">
           <div className="cardBackContent">
-            <p className="description">Description</p>
+            <h5 className="description">{description}</h5>
             <Button className="demoBtn" variant="light">
               Demo
             </Button>
