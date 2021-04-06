@@ -35,6 +35,12 @@
 
 .wrapper .card-columns .card {
   background-color: rgb(225, 226, 226);
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.wrapper .card-columns .card:hover {
+  top: -25px;
 }
 
 // Small desktops

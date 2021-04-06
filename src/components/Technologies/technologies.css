@@ -38,6 +38,13 @@
 
 .wrapper .card-columns .card {
   background-color: #e1e2e2;
+  top: 0;
+  -webkit-transition: top ease 0.5s;
+  transition: top ease 0.5s;
+}
+
+.wrapper .card-columns .card:hover {
+  top: -25px;
 }
 
 @media only screen and (max-width: 1424px) {
