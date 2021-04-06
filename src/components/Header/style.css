@@ -18,15 +18,6 @@ body {
   height: 650px;
 }
 
-.layer {
-  background-color: rgba(67, 76, 129, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .iconLogo {
   font-size: 2.5rem;
   padding-top: 15px;

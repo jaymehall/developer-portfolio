@@ -30,8 +30,6 @@
   text-shadow: 3px 3px 0px #0a0a0a;
   color: white;
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/116/047/small/blue-chemical-formula-background.jpg");
-  background-color: rgb(56, 2, 56);
-  background-blend-mode: screen;
   padding: 30px 0 50px 0;
   clip-path: polygon(
     0 0%,
@@ -43,4 +41,22 @@
     0% 100%,
     0 50%
   );
+}
+
+@media only screen and (max-width: 1199px) {
+    .projectsContainer {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .projectsContainer {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .projectsContainer {
+        height: 2000px;
+    }
 }

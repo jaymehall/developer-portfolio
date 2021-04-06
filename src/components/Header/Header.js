@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Header() {
   return (
     <div className="bg">
-      <div className="layer"></div>
+      {/* <div className="layer"></div> */}
       <div className="logo">
         <FontAwesomeIcon className="iconLogo" icon={faAtom} />
           <p>Source Logic</p>

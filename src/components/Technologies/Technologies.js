@@ -10,7 +10,7 @@ import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 function Technologies () {
     return (
         <div className="middleBg">
-            <div className="film"></div>
+            {/* <div className="film"></div> */}
             <div className="wrapper">
                 <Box className="techBox"
                 icon={faNetworkWired}

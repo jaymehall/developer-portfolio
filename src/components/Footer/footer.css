@@ -1,3 +1,13 @@
+.footerBg {
+  background-image: url(https://image.freepik.com/free-vector/blue-neural-network-illustration_53876-78754.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 97%;
+  height: 100px;
+  margin: 0 10px 0px 25px;
+}
+
 .iconContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,5 +18,49 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.iconLogo {
+  color: white;
+  font-size: xxx-large;
+  margin-top: 20px;
+}
+
+.iconLogo:hover,
+.iconLogo:focus,
+.iconLogo:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1424px) {
+  .footerBg {
+    width: 96%;
+  }
+}
+
+@media (max-width: 1137px) and (min-width: 767px) {
+  .footerBg {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .footerBg {
+    width: 94%;
+  }
+}
+
+@media (max-width: 702px) and (min-width: 640px) {
+  .footerBg {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footerBg {
+    margin: 0;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

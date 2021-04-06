@@ -1,12 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { faGithubSquare } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedIn } from "@fortawesome/free-solid-svg-icons";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.css";
 
-function Header() {
+function Footer() {
   return (
     <div className="footerBg">
       <div className="iconContainer">
@@ -23,7 +23,7 @@ function Header() {
           target="_blank"
           href="https://www.linkedin.com/in/jayme-mizelle/"
         >
-          <FontAwesomeIcon className="iconLogo" icon={faLinkedIn} />
+          <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
         </a>
         <a
           rel="noreferrer"
@@ -37,4 +37,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Footer;

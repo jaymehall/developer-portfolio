@@ -6,9 +6,7 @@ function MiddlePane() {
   return (
     <div className="middleContainer">
       <h2 className="title">
-        Full Stack Trained
-        <br />
-        Front End Driven
+        Full Stack Developer
       </h2>
       <div className="middleText">
         <div>
