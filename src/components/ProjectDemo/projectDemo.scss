@@ -1,11 +1,11 @@
 .dialog {
     box-shadow: 0 8px 6px -6px black;
     position: static;
-    left: 20%;
     top: 10%;
+    z-index: 1;
   }
   
   .image {
-    width: 300px;
+    width: 80vw;
   }
   

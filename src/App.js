@@ -16,7 +16,6 @@ function App() {
             <Technologies/>
             <Projects/>
             <Footer/>
-            <ProjectDemo/>
         </>
     )
 }

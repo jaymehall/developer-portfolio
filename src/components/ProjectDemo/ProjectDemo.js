@@ -1,24 +1,23 @@
 import React, { useState } from "react";
 import "./projectDemo.css";
+import burgerGif from "./nomThatBurger.gif";
 
-function ProjectDemo() {
-  const [ projectDemoState, setProjectDemoState ] = useState({ isOpen: false });
+const gifs = {
+  NomThatBurger: burgerGif,
+  GoTeam: burgerGif
+}
 
+function ProjectDemo({showProject, setShowProject}) {
+  console.log(showProject);
   const handleShowDialog = () => {
-    setProjectDemoState({ isOpen: !projectDemoState.isOpen });
-    console.log("cliked");
+    setShowProject("");
+    console.log("clicked");
   };
 
     return (
       <div>
-        <img
-          className="small"
-          src="/Anj.png"
-          onClick={handleShowDialog}
-          alt="none"
-        />
-        {projectDemoState.isOpen && (
-          <dialog
+        {showProject && (
+          <dialog 
             className="dialog"
             style={{ position: "absolute" }}
             open
@@ -26,7 +25,7 @@ function ProjectDemo() {
           >
             <img
               className="image"
-              src={require("./nomThatBurger.gif")}
+              src={gifs[showProject]}
               onClick={handleShowDialog}
               alt="none"
             />

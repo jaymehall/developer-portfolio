@@ -1,15 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./projects.css";
 import FlipCard from "../FlipCard/FlipCard";
 // import { faHamburger } from "@fortawesome/free-solid-svg-icons";
+import ProjectDemo from "../ProjectDemo/ProjectDemo"
 
 function Projects() {
+    const [showProject, setShowProject] = useState("")
+
+
+
   return (
-    <div>
+    <div style={{position: "relative"}}>
       <h2 className="projectsTitle">Projects</h2>
+      <ProjectDemo setShowProject={setShowProject} showProject={showProject}/>
       <div className="projectsContainer">
-        <FlipCard
+        <FlipCard setShowProject={setShowProject}
           className="projectCard"
           heading="Crypto Tracker"
           child1="JavaScript"
@@ -20,7 +26,7 @@ function Projects() {
           description="Allows user to sign up, log in, search and save various crypto coins based on current price and indicators."
         />
 
-        <FlipCard
+        <FlipCard setShowProject={setShowProject}
           className="projectCard"
         //   icon={faHamburger}
           heading="Nom That Burger"
@@ -31,7 +37,7 @@ function Projects() {
           child5="Handlebars.js"
           description="Allows the user to type in and save their favorite burgers to a MySQL database. User can then devour burgers at will!"
         />
-        <FlipCard
+        <FlipCard setShowProject={setShowProject}
           className="projectCard"
           heading="Weather Dash"
           child1="HTML 5 |CSS3"
@@ -41,7 +47,7 @@ function Projects() {
           child5="AJAX"
           description="Loads a 5-day forecast for any city the user searches for. Cities are stored in client-side storage for the user to return to at will."
         />
-        <FlipCard
+        <FlipCard setShowProject={setShowProject}
           className="projectCard"
           heading="GoTeam"
           child1="React"
