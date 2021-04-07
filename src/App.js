@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import ProjectDemo from "./components/ProjectDemo/ProjectDemo"
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Technologies/>
             <Projects/>
             <Footer/>
+            <ProjectDemo/>
         </>
     )
 }
