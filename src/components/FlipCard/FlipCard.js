@@ -37,9 +37,9 @@ function FlipCard({
             <Button onClick={() => setShowProject(heading.split(" ").join(""))} className="demoBtn" variant="light">
               Demo
             </Button>
-            <a rel="noreferrer" target="_blank" href={gitRepURL}>
+            {/* <a rel="noreferrer" target="_blank" href={gitRepURL}>
               <Button className="viewCodeBtn">View Code</Button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
