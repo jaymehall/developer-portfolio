@@ -1,10 +1,15 @@
 import React from "react";
 import "./projectDemo.css";
 import burgerGif from "./nomThatBurger.gif";
+import cryptoGif from "./cryptoTracker.gif";
+import weatherGif from "./weatherDash.gif";
+import goTeamGif from "./goTeam.gif";
 
 const gifs = {
   NomThatBurger: burgerGif,
-  GoTeam: burgerGif
+  CryptoTracker: cryptoGif,
+  WeatherDash: weatherGif,
+  GoTeam: goTeamGif
 }
 
 function ProjectDemo({showProject, setShowProject}) {

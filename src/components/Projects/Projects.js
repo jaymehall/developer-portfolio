@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./projects.css";
 import FlipCard from "../FlipCard/FlipCard";
-// import { faHamburger } from "@fortawesome/free-solid-svg-icons";
 import ProjectDemo from "../ProjectDemo/ProjectDemo"
 
 function Projects() {
@@ -28,7 +27,6 @@ function Projects() {
 
         <FlipCard setShowProject={setShowProject}
           className="projectCard"
-        //   icon={faHamburger}
           heading="Nom That Burger"
           child1="Node JS"
           child2="Express"
