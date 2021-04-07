@@ -5,6 +5,7 @@ import burgerGif from "./nomThatBurger.gif";
 import cryptoGif from "./cryptoTracker.gif";
 import weatherGif from "./weatherDash.gif";
 import goTeamGif from "./goTeam.gif";
+import Button from "react-bootstrap/Button";
 
 const gifs = {
   NomThatBurger: burgerGif,
@@ -13,7 +14,7 @@ const gifs = {
   GoTeam: goTeamGif
 }
 
-function ProjectDemo({showProject, setShowProject}) {
+function ProjectDemo({showProject, setShowProject, gitRepURL}) {
   console.log(showProject);
   const handleShowDialog = () => {
     setShowProject("");
@@ -35,6 +36,9 @@ function ProjectDemo({showProject, setShowProject}) {
               onClick={handleShowDialog}
               alt="none"
             /><span className="closeGif">X</span>
+            {/* <a rel="noreferrer" target="_blank" href={gitRepURL}>
+              <Button className="viewCodeBtn">View Code</Button>
+            </a> */}
           </dialog>
         )}
       </div>
