@@ -2,6 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import "./flipCard.css";
 import Box from "../Card";
+import ProjectDemo from "../ProjectDemo/ProjectDemo";
 
 
 function FlipCard({
@@ -33,14 +34,11 @@ function FlipCard({
         <div className="flipCardBack">
           <div className="cardBackContent">
             <h5 className="description">{description}</h5>
-            <Button
-              onClick={() => setShowProject(heading.split(" ").join(""))}
-              className="cardBackBtns"
-            >
+            <Button onClick={() => setShowProject(heading.split(" ").join(""))} className="demoBtn" variant="light">
               Demo
             </Button>
             <a rel="noreferrer" target="_blank" href={gitRepURL}>
-              <Button className="cardBackBtns">View Code</Button>
+              <Button className="viewCodeBtn">View Code</Button>
             </a>
           </div>
         </div>
