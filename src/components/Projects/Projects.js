@@ -10,7 +10,7 @@ function Projects() {
 
 
   return (
-    <div style={{position: "relative"}}>
+    <div id="viewWork" style={{position: "relative"}}>
       <h2 className="projectsTitle">Projects</h2>
       <ProjectDemo setShowProject={setShowProject} showProject={showProject}/>
       <div className="projectsContainer">
