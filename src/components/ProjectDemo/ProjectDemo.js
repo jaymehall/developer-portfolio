@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./projectDemo.css";
 import burgerGif from "./nomThatBurger.gif";
 
@@ -17,7 +17,7 @@ function ProjectDemo({showProject, setShowProject}) {
     return (
       <div>
         {showProject && (
-          <dialog 
+          <dialog
             className="dialog"
             style={{ position: "absolute" }}
             open
@@ -28,7 +28,7 @@ function ProjectDemo({showProject, setShowProject}) {
               src={gifs[showProject]}
               onClick={handleShowDialog}
               alt="none"
-            />
+            /><span className="closeGif">X</span>
           </dialog>
         )}
       </div>

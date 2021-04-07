@@ -9,4 +9,14 @@
 .image {
   width: 80vw;
 }
+
+.closeGif {
+  font-weight: bold;
+  float: right;
+  margin-left: 10px;
+}
+
+.closeGif:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=projectDemo.css.map */
