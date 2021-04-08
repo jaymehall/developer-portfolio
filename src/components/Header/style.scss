@@ -81,3 +81,9 @@ a.viewWork:hover {
   -webkit-transform: scale(0.8);
   transform: scale(0.9);
 }
+
+@media only screen and (max-width: 640px) {
+  .bg {
+    background-size: contain;
+  }
+} /* Target Phone Exclusively */
