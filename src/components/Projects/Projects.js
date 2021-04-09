@@ -27,7 +27,6 @@ function Projects({gitRepURL}) {
         />
 
         <FlipCard setShowProject={setShowProject} 
-        gitRepURL="https://github.com/jaymemizelle/nom-that-burger"
           className="projectCard"
           heading="Nom That Burger"
           child1="Node JS"
@@ -39,7 +38,7 @@ function Projects({gitRepURL}) {
         />
         <FlipCard setShowProject={setShowProject}
           className="projectCard"
-          heading="Weather Dash"
+          heading="Travelers Weather Dash"
           child1="HTML 5 |CSS3"
           child2="Bootstrap"
           child3="JavaScript | jQuery"

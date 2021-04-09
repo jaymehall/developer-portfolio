@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 const gifs = {
   NomThatBurger: burgerGif,
   CryptoTracker: cryptoGif,
-  WeatherDash: weatherGif,
+  TravelersWeatherDash: weatherGif,
   GoTeam: goTeamGif
 }
 
@@ -35,7 +35,7 @@ function ProjectDemo({showProject, setShowProject, gitRepURL}) {
               // onClick={handleShowDialog}
               alt="none"
             /><span onClick={handleShowDialog} className="closeGif">X</span>
-            <a href={`https://github.com/jaymemizelle/${showProject.split(/(?=[A-Z])/).join("-").toLowerCase()}`} target="_blank">
+            <a rel="noreferrer" href={`https://github.com/jaymemizelle/${showProject.split(/(?=[A-Z])/).join("-").toLowerCase()}`} target="_blank">
               <Button className="viewCodeBtn">View Code</Button>
             </a>
           </dialog>
