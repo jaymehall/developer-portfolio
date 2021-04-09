@@ -18,7 +18,6 @@ function ProjectDemo({showProject, setShowProject, gitRepURL}) {
   console.log(showProject);
   const handleShowDialog = () => {
     setShowProject("");
-    console.log("clicked");
   };
 
     return (
@@ -28,17 +27,17 @@ function ProjectDemo({showProject, setShowProject, gitRepURL}) {
             className="dialog"
             style={{ position: "absolute" }}
             open
-            onClick={handleShowDialog}
+            // onClick={handleShowDialog}
           >
             <img
               className="image"
               src={gifs[showProject]}
-              onClick={handleShowDialog}
+              // onClick={handleShowDialog}
               alt="none"
-            /><span className="closeGif">X</span>
-            {/* <a rel="noreferrer" target="_blank" href={gitRepURL}>
+            /><span onClick={handleShowDialog} className="closeGif">X</span>
+            <a href={`https://github.com/jaymemizelle/${showProject.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, '$1-$2').toLowerCase()}`} target="_blank">
               <Button className="viewCodeBtn">View Code</Button>
-            </a> */}
+            </a>
           </dialog>
         )}
       </div>
