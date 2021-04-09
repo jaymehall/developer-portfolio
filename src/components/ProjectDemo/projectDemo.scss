@@ -1,20 +1,28 @@
 .dialog {
-    box-shadow: 0 8px 6px -6px black;
-    position: static;
-    top: 10%;
-    z-index: 1;
-  }
-  
-  .image {
-    width: 80vw;
-  }
-  
-  .closeGif {
-    font-weight: bold; 
-    float: right;
-    margin-left: 10px;
-  }
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  top: 10%;
+  z-index: 1;
+}
 
-  .closeGif:hover {
-    cursor: pointer;
+.image {
+  width: 80vw;
+}
+
+.closeGif {
+  font-weight: bold;
+  float: right;
+  margin-left: 10px;
+}
+
+.closeGif:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+  .viewCodeBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
   }
+}

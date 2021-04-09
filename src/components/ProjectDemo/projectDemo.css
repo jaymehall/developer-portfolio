@@ -19,4 +19,12 @@
 .closeGif:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 640px) {
+  .viewCodeBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
 /*# sourceMappingURL=projectDemo.css.map */
