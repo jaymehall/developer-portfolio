@@ -35,7 +35,7 @@ function ProjectDemo({showProject, setShowProject, gitRepURL}) {
               // onClick={handleShowDialog}
               alt="none"
             /><span onClick={handleShowDialog} className="closeGif">X</span>
-            <a href={`https://github.com/jaymemizelle/${showProject.replace(/([a-z0-9]|(?=[A-Z]))([A-Z])/g, '$1-$2').toLowerCase()}`} target="_blank">
+            <a href={`https://github.com/jaymemizelle/${showProject.split(/(?=[A-Z])/).join("-").toLowerCase()}`} target="_blank">
               <Button className="viewCodeBtn">View Code</Button>
             </a>
           </dialog>
