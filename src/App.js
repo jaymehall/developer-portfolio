@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 
 function App() {
