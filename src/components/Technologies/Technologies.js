@@ -37,7 +37,7 @@ function Technologies () {
                 child2="Heroku"
                 child3="Netlify"
                 child4="Gh Pages"
-                child5="DNN .NET CMS"
+                child5="GitHub"
                 />
                 <Box className="techBox"
                 icon={faCodeBranch}
@@ -45,8 +45,8 @@ function Technologies () {
                 child1="Git"
                 child2="Kanban"
                 child3="Photoshop | Procreate"
-                child4="Firebase | Passport"
-                child5="Salesforce | CMS"/>
+                child4="AWS | Passport"
+                child5="Salesforce | DNN CMS"/>
             </div>
         </div>
     )
