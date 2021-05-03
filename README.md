@@ -19,7 +19,7 @@ This is a responsive, dynamic Portfolio designed to showcase my projects and onl
 ``` npm i ```
 
 ## Deployment
-* Deployed Application URL: https://jayme-develops.herokuapp.com/
+* Deployed Application URL: https://jayme-develops.netlify.app/
 
 ## Usage
 Click on the deployed link above to browse my projects, view my resume, and more.
