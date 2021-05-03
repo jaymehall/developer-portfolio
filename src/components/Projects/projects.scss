@@ -6,7 +6,7 @@
 }
 
 .projectsContainer {
-    height: 400px;
+  height: 400px;
   margin-bottom: 200px;
   display: flex;
   justify-content: space-evenly;
@@ -44,19 +44,26 @@
 }
 
 @media only screen and (max-width: 1199px) {
-    .projectsContainer {
-        height: 800px;
-    }
+  .projectsContainer {
+    height: 1200px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
-    .projectsContainer {
-        height: 1000px;
-    }
+  .projectsContainer {
+    height: 1200px;
+  }
 }
 
 @media only screen and (max-width: 599px) {
-    .projectsContainer {
-        height: 2000px;
-    }
+  .projectsContainer {
+    height: 2000px;
+  }
+}
+
+// For small desktops
+@media only screen and (min-width: 1197px) and (max-width: 1550px) {
+  .projectsContainer {
+    height: 800px;
+  }
 }
