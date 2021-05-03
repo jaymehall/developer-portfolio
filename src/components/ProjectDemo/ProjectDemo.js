@@ -4,14 +4,16 @@ import "./projectDemo.css";
 import burgerGif from "./nomThatBurger.gif";
 import cryptoGif from "./cryptoTracker.gif";
 import weatherGif from "./weatherDash.gif";
-import goTeamGif from "./goTeam.gif";
 import Button from "react-bootstrap/Button";
+import showMyShowGif from "./showmyshow.gif";
+import eLibraryGif from "./eLibrary.gif";
 
 const gifs = {
   NomThatBurger: burgerGif,
   CryptoTracker: cryptoGif,
   TravelersWeatherDash: weatherGif,
-  GoTeam: goTeamGif
+  ShowMyShow: showMyShowGif,
+  eLibrary: eLibraryGif
 }
 
 function ProjectDemo({showProject, setShowProject, gitRepURL}) {
@@ -27,12 +29,10 @@ function ProjectDemo({showProject, setShowProject, gitRepURL}) {
             className="dialog"
             style={{ position: "absolute" }}
             open
-            // onClick={handleShowDialog}
           >
             <img
               className="image"
               src={gifs[showProject]}
-              // onClick={handleShowDialog}
               alt="none"
             /><span onClick={handleShowDialog} className="closeGif">X</span>
             <a rel="noreferrer" href={`https://github.com/jaymemizelle/${showProject.split(/(?=[A-Z])/).join("-").toLowerCase()}`} target="_blank">
