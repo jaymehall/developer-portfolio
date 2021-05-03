@@ -25,7 +25,7 @@ function Projects({ gitRepURL }) {
           child3="Material UI"
           child4="Node JS | Express"
           child5="MongoDB"
-          description="Full-Stack, responsive React app which allows users to search for events by city and save them to a MongoDB database."
+          description="Full-Stack, responsive MERN app which allows users to search for events by city and save them to a MongoDB as well as chat with other signed in users in the GreenRoom!"
           gitRepURL="https://github.com/jaymemizelle/show-my-show"
         />
         <FlipCard
@@ -37,7 +37,7 @@ function Projects({ gitRepURL }) {
           child3="Material UI"
           child4="Node JS | Express"
           child5="MongoDB"
-          description="Full-Stack, responsive React app which allows users to search for books by title and save them to a MongoDB database."
+          description="Full-Stack, responsive MERN app which allows users to search for books by title and save them to a MongoDB database."
           gitRepURL="https://github.com/jaymemizelle/e-library"
         />
         <FlipCard
@@ -49,7 +49,7 @@ function Projects({ gitRepURL }) {
           child3="Tailwind CSS"
           child4="Node JS | Express"
           child5="Handlebars.js"
-          description="Allows user to sign up, log in, search and save various crypto coins to a MySQL database based on current price and indicators."
+          description="Allows user to sign up, log in, search and save various crypto coins to a MySQL database based on the current price and trading indicators."
           gitRepURL="https://github.com/team-crypto-currency/crypto-investment-tracker"
         />
 
