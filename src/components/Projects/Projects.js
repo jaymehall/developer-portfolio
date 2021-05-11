@@ -68,7 +68,7 @@ function Projects({ gitRepURL }) {
           setShowProject={setShowProject}
           className="projectCard"
           heading="Travelers Weather Dash"
-          child1="HTML 5 |CSS3"
+          child1="HTML5 | CSS3"
           child2="Bootstrap"
           child3="JavaScript | jQuery"
           child4="OpenWeather API"
