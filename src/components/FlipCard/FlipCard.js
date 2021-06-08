@@ -14,6 +14,7 @@ function FlipCard({
   child3,
   child4,
   child5,
+  child6,
   description,
   gitRepURL
 }) {
@@ -29,14 +30,22 @@ function FlipCard({
             child3={child3}
             child4={child4}
             child5={child5}
+            child6={child6}
           />
         </div>
         <div className="flipCardBack">
           <div className="cardBackContent">
             <h5 className="description">{description}</h5>
-            <Button onClick={() => setShowProject(heading.split(" ").join(""))} className="demoBtn" variant="light">
-              Demo
+            <a target="_blank" href={`${child6}`}>
+              <Button className="viewSiteBtn" variant="light">
+                Live Site
+              </Button>
+            </a>
+            <div>
+              <Button onClick={() => setShowProject(heading.split(" ").join(""))} className="demoBtn" variant="light">
+                Demo
             </Button>
+            </div>
           </div>
         </div>
       </div>

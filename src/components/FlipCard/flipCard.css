@@ -1,4 +1,4 @@
-.demoBtn, .viewCodeBtn {
+.demoBtn, .viewCodeBtn, .viewSiteBtn {
   border-radius: 25px;
   margin: 5px;
 }
@@ -59,7 +59,7 @@
 }
 
 .cardBackContent {
-  margin-top: 35%;
+  margin-top: 20%;
   padding: 10px;
   text-align: center;
 }
