@@ -36,7 +36,7 @@ function FlipCard({
         <div className="flipCardBack">
           <div className="cardBackContent">
             <h5 className="description">{description}</h5>
-            <a target="_blank" href={`${child6}`}>
+            <a rel="noreferrer" target="_blank" href={`${child6}`}>
               <Button className="viewSiteBtn" variant="light">
                 Live Site
               </Button>
