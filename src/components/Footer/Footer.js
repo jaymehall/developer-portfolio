@@ -14,21 +14,21 @@ function Footer() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/jaymemizelle/"
+          href="https://github.com/theprivacydev/"
         >
           <FontAwesomeIcon className="iconLogo" icon={faGithubSquare} />
         </a>
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://www.linkedin.com/in/jayme-mizelle/"
+          href=""
         >
           <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
         </a>
         <a
           rel="noreferrer"
           target="_blank"
-          href="mailto:jlm_developer@protonmail.com"
+          href="mailto:theprivacydev@protonmail.com"
         >
           <FontAwesomeIcon className="iconLogo" icon={faEnvelopeSquare} />
         </a>
