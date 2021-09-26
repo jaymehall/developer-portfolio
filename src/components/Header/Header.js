@@ -15,7 +15,7 @@ function Header() {
         <p>Source Logic</p>
       </div>
       <div className="headerText">
-        <h1 className="name">Jayme Mizelle</h1>
+        <h1 className="name">The Privacy Dev</h1>
         <p>Software Developer</p>
         <Router>
           <Button className="viewWorkBtn" variant="light">
