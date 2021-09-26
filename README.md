@@ -19,11 +19,10 @@ This is a responsive, dynamic Portfolio designed to showcase my projects and onl
 ``` npm i ```
 
 ## Deployment
-* Deployed Application URL: https://jayme-develops.netlify.app/
+* 
 
 ## Usage
 Click on the deployed link above to browse my projects, view my resume, and more.
-![application-screenshot](./public/jayme-develops-screenshot.jpg)
 
 ## Technologies
 * JavaScript 
@@ -45,6 +44,6 @@ Click on the deployed link above to browse my projects, view my resume, and more
 
 ## Questions
 For additional questions please contact:
-* Jayme Mizelle
-* Email: jlm_developer@protonmail.com
-* https://github.com/jaymemizelle/
+* The Privacy Dev
+* Email: theprivacydev@protonmail.com
+* https://github.com/theprivacydev/
