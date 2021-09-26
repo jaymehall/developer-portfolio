@@ -27,7 +27,7 @@ function Projects({ gitRepURL }) {
           child5="MongoDB"
           child6="https://showmyshow.herokuapp.com/"
           description="Full-Stack, responsive MERN app which allows users to search for events by city and save them to a MongoDB as well as chat with other signed in users in the GreenRoom!"
-          gitRepURL="https://github.com/jaymemizelle/show-my-show"
+          gitRepURL="https://github.com/theprivacydev/show-my-show"
         />
         <FlipCard
           setShowProject={setShowProject}
@@ -40,7 +40,7 @@ function Projects({ gitRepURL }) {
           child5="MongoDB"
           child6="https://sleepy-fjord-99481.herokuapp.com/"
           description="Full-Stack, responsive MERN app which allows users to search for books by title and save them to a MongoDB database."
-          gitRepURL="https://github.com/jaymemizelle/e-library"
+          gitRepURL="https://github.com/theprivacydev/e-library"
         />
         <FlipCard
           setShowProject={setShowProject}
@@ -77,9 +77,9 @@ function Projects({ gitRepURL }) {
           child3="JavaScript | jQuery"
           child4="OpenWeather API"
           child5="AJAX"
-          child6="https://jaymemizelle.github.io/travelers-weather-dash/"
+          child6="https://theprivacydev.github.io/travelers-weather-dash/"
           description="Loads a 5-day forecast for any city the user searches for. Cities are stored in client-side storage for the user to return to at will."
-          gitRepURL="https://github.com/jaymemizelle/travelers-weather-dash"
+          gitRepURL="https://github.com/theprivacydev/travelers-weather-dash"
         />
       </div>
     </div>
