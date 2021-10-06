@@ -21,7 +21,7 @@ function Footer() {
         <a
           rel="noreferrer"
           target="_blank"
-          href=""
+          href="https://www.linkedin.com/"
         >
           <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
         </a>

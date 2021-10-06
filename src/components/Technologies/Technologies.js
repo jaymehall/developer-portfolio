@@ -24,7 +24,7 @@ function Technologies () {
                 <Box className="techBox"
                 icon={faDatabase}
                 heading="Back End"
-                child1="Node JS"
+                child1="Node JS / Rails"
                 child2="Express"
                 child3="MySQL"
                 child4="MongoDB"
@@ -43,9 +43,9 @@ function Technologies () {
                 icon={faCodeBranch}
                 heading="Tools"
                 child1="Git"
-                child2="Kanban"
+                child2="Kanban | JIRA"
                 child3="Photoshop | Procreate"
-                child4="AWS | Passport"
+                child4="AWS | Passport | Oauth2"
                 child5="Salesforce | DNN CMS"/>
             </div>
         </div>
