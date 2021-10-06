@@ -19,7 +19,7 @@ This is a responsive, dynamic Portfolio designed to showcase my projects and onl
 ``` npm i ```
 
 ## Deployment
-* 
+* https://the-privacy-devfolio.netlify.app/ 
 
 ## Usage
 Click on the deployed link above to browse my projects, view my resume, and more.
