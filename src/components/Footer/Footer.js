@@ -30,7 +30,7 @@ function Footer() {
         </a>
       </div>
       <h4
-        style={{ marginLeft: "2%", color: "whitesmoke", paddingTop: "10px" }}
+        style={{ marginLeft: "2%", paddingBottom: "30px", color: "whitesmoke", paddingTop: "10px" }}
       >
         theprivacydev.eth
       </h4>

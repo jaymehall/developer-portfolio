@@ -69,9 +69,24 @@ a.viewWork:hover {
   transform: scale(0.9);
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1000px) {
   .bg {
     background-size: contain;
+    background-attachment: inherit;
+  }
+  .subtitle {
+    margin-top: 200px !important;
+  }
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 800px) {
+  .bg {
+    background-size: contain;
+    background-attachment: inherit;
+  }
+  .subtitle {
+    margin-top: 200px !important;
   }
 }
 
