@@ -35,7 +35,8 @@
 .projectsContainer div.cardTitle.card-title.h5 {
   text-shadow: 3px 3px 0px #0a0a0a;
   color: white;
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/116/047/small/blue-chemical-formula-background.jpg");
+  background-image: url("https://www.glimmernet.com/wp-content/uploads/2019/01/network-dark-bg-flipped-300x194.jpg");
+  background-position: center;
   padding: 30px 0 50px 0;
   -webkit-clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 77%, 0% 100%, 0% 100%, 0 50%);
           clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 77%, 0% 100%, 0% 100%, 0 50%);

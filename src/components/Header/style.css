@@ -14,7 +14,7 @@ body {
   -webkit-clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 85%, 0% 100%, 0% 100%, 0 50%);
           clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 85%, 0% 100%, 0% 100%, 0 50%);
   margin: 15px 20px 0 20px;
-  background-image: url("./networkGif.gif");
+  background-image: url("./theprivacydevlogo.png");
   height: 650px;
 }
 
