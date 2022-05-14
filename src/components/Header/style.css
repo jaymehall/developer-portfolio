@@ -80,15 +80,5 @@ a.viewWork:hover {
 
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 800px) {
-  .bg {
-    background-size: contain;
-    background-attachment: inherit;
-  }
-  .subtitle {
-    margin-top: 200px !important;
-  }
-}
-
 /* Target Phone Exclusively */
 /*# sourceMappingURL=style.css.map */
