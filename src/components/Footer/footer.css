@@ -1,11 +1,15 @@
 .footerBg {
-  background-image: url(https://image.freepik.com/free-vector/blue-neural-network-illustration_53876-78754.jpg);
+  background-image: url(https://40krbz1jvtly401iwfxvoab1-wpengine.netdna-ssl.com/wp-content/uploads/HERO_Black-Background-with-Blue-Network-450x253.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 97%;
   height: 100px;
   margin: 0 10px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .iconContainer {

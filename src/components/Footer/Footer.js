@@ -18,11 +18,7 @@ function Footer() {
         >
           <FontAwesomeIcon className="iconLogo" icon={faGithubSquare} />
         </a>
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://www.linkedin.com/"
-        >
+        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/">
           <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
         </a>
         <a
@@ -33,6 +29,11 @@ function Footer() {
           <FontAwesomeIcon className="iconLogo" icon={faEnvelopeSquare} />
         </a>
       </div>
+      <h4
+        style={{ marginLeft: "2%", color: "whitesmoke", paddingTop: "10px" }}
+      >
+        theprivacydev.eth
+      </h4>
     </div>
   );
 }
