@@ -11,11 +11,11 @@ function Box(props) {
                 <FontAwesomeIcon className="icon" icon={props.icon} />
                 <Card.Title className="cardTitle">{props.heading}</Card.Title>
                 <Card.Text>
-                  <p>{props.child1}</p>
-                  <p>{props.child2}</p>
-                  <p>{props.child3}</p>
-                  <p>{props.child4}</p>
-                  <p>{props.child5}</p>
+                  <div>{props.child1}</div>
+                  <div>{props.child2}</div>
+                  <div>{props.child3}</div>
+                  <div>{props.child4}</div>
+                  <div>{props.child5}</div>
                 </Card.Text>
               </Card.Body>
             </Card>

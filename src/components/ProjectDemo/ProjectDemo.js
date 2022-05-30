@@ -17,7 +17,6 @@ const gifs = {
 }
 
 function ProjectDemo({showProject, setShowProject, gitRepURL}) {
-  console.log(showProject);
   const handleShowDialog = () => {
     setShowProject("");
   };

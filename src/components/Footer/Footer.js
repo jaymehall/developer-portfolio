@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.css";
@@ -18,8 +19,11 @@ function Footer() {
         >
           <FontAwesomeIcon className="iconLogo" icon={faGithubSquare} />
         </a>
-        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/">
+        {/* <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/">
           <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
+        </a> */}
+        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/">
+          <FontAwesomeIcon className="iconLogo" icon={faTwitter} />
         </a>
         <a
           rel="noreferrer"
@@ -30,7 +34,12 @@ function Footer() {
         </a>
       </div>
       <h4
-        style={{ marginLeft: "2%", paddingBottom: "30px", color: "whitesmoke", paddingTop: "10px" }}
+        style={{
+          marginLeft: "2%",
+          paddingBottom: "30px",
+          color: "whitesmoke",
+          paddingTop: "10px"
+        }}
       >
         theprivacydev.eth
       </h4>

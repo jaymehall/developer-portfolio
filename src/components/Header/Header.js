@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 
 function Header() {
   return (
-    <div className="bg">
+    <main className="bg">
       <div className="logo">
       </div>
       <div className="headerText">
@@ -19,7 +19,7 @@ function Header() {
           </Button>
         </Router>
       </div>
-    </div>
+    </main>
   );
 }
 
