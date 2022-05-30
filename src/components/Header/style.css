@@ -9,13 +9,13 @@ body {
 .bg {
   position: relative;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
   -webkit-clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 85%, 0% 100%, 0% 100%, 0 50%);
           clip-path: polygon(0 0%, 0% 0%, 100% 0%, 100% 4%, 100% 85%, 0% 100%, 0% 100%, 0 50%);
   margin: 15px 20px 0 20px;
   background-image: url("./theprivacydevlogo.png");
-  height: 650px;
+  height: 850px;
 }
 
 .iconLogo {
@@ -73,6 +73,7 @@ a.viewWork:hover {
   .bg {
     background-size: contain;
     background-attachment: inherit;
+    height: 650px;
   }
   .subtitle {
     margin-top: 200px !important;

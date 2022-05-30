@@ -30,4 +30,20 @@
       flex-wrap: wrap;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .middlePaneContain {
+    flex-wrap: wrap;
+  }
+  .pictureSection {
+    margin: 10% !important;
+  }
+  .myPic {
+    /* margin-bottom: 5% !important; */
+    width: 300px !important;
+  }
+}
+
+
+
 /*# sourceMappingURL=index.css.map */
