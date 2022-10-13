@@ -34,17 +34,14 @@ function MiddlePane() {
               began as a self-taught programmer and went on to graduate from the
               University of Oregon's Full Stack Coding Bootcamp. I use a
               consistent approach to quickly produce effective, clean code with
-              a focus on accessibility.
+              a focus on accessibility and scalability.
             </div>
           </article>
           <article className="secondSection">
-            <h5 className="sectionTitle">Adaptable Team Member</h5>
+            <h5 className="sectionTitle">Deliverable Productivity</h5>
             <div className="introText">
               As an experienced and efficient communicator, I fit seamlessly
-              into any healthy and organized work environment. I have
-              contributed to open source projects and collaborated alongside
-              other develpers to build responsive, full-stack web applications.
-              I always stay up to date on the most relevant frameworks and
+              into any healthy and organized work environment. I have created features for enterprise clients that directly impact company revenue, and worked in an agile process to deliver visible and testable results in a timely fashion. I always stay up to date on the most relevant frameworks and
               libraries, so I am continuously adding to my repertoire of
               technologies.
             </div>
