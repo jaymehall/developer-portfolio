@@ -22,7 +22,6 @@ function FlipCard({
         <div className="flipCardFront">
           <Box
             // icon={icon}
-            // trigger deploy
             heading={heading}
             child1={child1}
             child2={child2}
@@ -45,7 +44,7 @@ function FlipCard({
                 </Button>
               </a>
             ) : null}
-            {gitRepURL == "https://github.com/theprivacydev/blockchain-app" ? (
+            {gitRepURL === "https://github.com/theprivacydev/blockchain-app" ? (
               <a rel="noreferrer" target="_blank" href={`${gitRepURL}`}>
               <Button className="viewSiteBtn" variant="light">
                 GitHub Repo
