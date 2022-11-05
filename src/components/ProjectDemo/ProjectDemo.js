@@ -7,13 +7,15 @@ import weatherGif from "./weatherDash.gif";
 import Button from "react-bootstrap/Button";
 import showMyShowGif from "./showmyshow.gif";
 import eLibraryGif from "./eLibrary.gif";
+import ethMemosGif from "./ethMemos.gif";
 
 const gifs = {
   NomThatBurger: burgerGif,
   CryptoTracker: cryptoGif,
   TravelersWeatherDash: weatherGif,
   ShowMyShow: showMyShowGif,
-  eLibrary: eLibraryGif
+  eLibrary: eLibraryGif,
+  EthMemos: ethMemosGif
 }
 
 function ProjectDemo({showProject, setShowProject, gitRepURL}) {
