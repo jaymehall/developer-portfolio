@@ -19,34 +19,34 @@ function Technologies () {
                 child2="CSS3 | SASS"
                 child3="JavaScript"
                 child4="Bootstrap | Tailwind CSS"
-                child5="React | Context API"
+                child5="React"
                 />
                 <Box className="techBox"
                 icon={faDatabase}
                 heading="Back End"
-                child1="Node JS / Rails"
+                child1="Node JS"
                 child2="Express"
                 child3="MySQL"
                 child4="MongoDB"
-                child5="Handlebars.js"
+                child5="Ruby on Rails"
                 />
                 <Box className="techBox"
                 icon={faServer}
-                heading="Deployment"
-                child1="Gulp"
-                child2="Heroku"
-                child3="Netlify"
-                child4="Gh Pages"
-                child5="GitHub"
+                heading="Blockchain"
+                child1="Solidity"
+                child2="Web3.js"
+                child3="Ether.js | Ethereum"
+                child4="Truffle Suite"
+                child5="Motoko | Canisters"
                 />
                 <Box className="techBox"
                 icon={faCodeBranch}
                 heading="Tools"
-                child1="Git"
-                child2="Kanban | JIRA"
-                child3="Photoshop | Procreate"
+                child1="Git | Yarn | NPM"
+                child2="Kanban | JIRA | Azure"
+                child3="Context API | Redux"
                 child4="AWS | Passport | Oauth2"
-                child5="Salesforce | DNN CMS"/>
+                child5="Next.j for SEO"/>
             </div>
         </div>
     )
