@@ -7,6 +7,7 @@ import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import Experience from "./components/MiddlePane/Experience/Experience";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <>
             <Header/>
             <MiddlePane/>
+            <Experience />
             <Technologies/>
             <Projects/>
             <Footer/>

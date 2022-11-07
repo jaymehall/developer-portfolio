@@ -8,7 +8,7 @@ function Projects({ gitRepURL }) {
   const [showProject, setShowProject] = useState("");
 
   return (
-    <div id="viewWork" style={{ position: "relative" }}>
+    <div style={{ position: "relative" }}>
       <h2 className="projectsTitle">Projects</h2>
       <ProjectDemo
         setShowProject={setShowProject}

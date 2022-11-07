@@ -1,0 +1,30 @@
+.experienceContain {
+    display: flex;
+    margin-top: 30px;
+}
+
+.sectionTitle {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .introText {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .experienceContain {
+      flex-wrap: wrap;
+    }
+  }
