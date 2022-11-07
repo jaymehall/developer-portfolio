@@ -12,7 +12,7 @@ function Experience() {
         Live, Production-Ready Software I've Helped Build
       </h2>
       <div className="experienceContain">
-        <div style={{ margin: "50px" }}>
+        <div className="section">
           <h5 className="sectionTitle">Web2</h5>
           <h6 style={{ textAlign: "center" }}>
             <a
@@ -31,7 +31,7 @@ function Experience() {
             Board.
           </p>
         </div>
-        <div style={{ margin: "50px" }}>
+        <div className="section">
           <h5 className="sectionTitle">Web3</h5>
           <h6 style={{ textAlign: "center" }}>
             <a

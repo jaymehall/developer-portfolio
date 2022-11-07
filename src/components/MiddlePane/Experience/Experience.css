@@ -3,6 +3,10 @@
     margin-top: 30px;
 }
 
+.section {
+    margin: 50px;
+}
+
 .sectionTitle {
     margin-bottom: 20px;
     text-align: center;
@@ -26,5 +30,11 @@
   @media only screen and (max-width: 1000px) {
     .experienceContain {
       flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .section {
+        margin: 20px;
     }
   }
