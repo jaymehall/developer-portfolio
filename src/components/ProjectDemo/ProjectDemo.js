@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./projectDemo.css";
 import burgerGif from "./nomThatBurger.gif";
@@ -8,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import showMyShowGif from "./showmyshow.gif";
 import eLibraryGif from "./eLibrary.gif";
 import ethMemosGif from "./ethMemos.gif";
+import railsFriendsGif from "./railsFriends.gif";
 
 const gifs = {
   NomThatBurger: burgerGif,
@@ -15,34 +15,37 @@ const gifs = {
   TravelersWeatherDash: weatherGif,
   ShowMyShow: showMyShowGif,
   eLibrary: eLibraryGif,
-  EthMemos: ethMemosGif
-}
+  EthMemos: ethMemosGif,
+  RailsFriends: railsFriendsGif
+};
 
-function ProjectDemo({showProject, setShowProject, gitRepURL}) {
+function ProjectDemo({ showProject, setShowProject, gitRepURL }) {
   const handleShowDialog = () => {
     setShowProject("");
   };
 
-    return (
-      <div>
-        {showProject && (
-          <dialog
-            className="dialog"
-            style={{ position: "absolute" }}
-            open
+  return (
+    <div>
+      {showProject && (
+        <dialog className="dialog" style={{ position: "absolute" }} open>
+          <img className="image" src={gifs[showProject]} alt="none" />
+          <span onClick={handleShowDialog} className="closeGif">
+            X
+          </span>
+          <a
+            rel="noreferrer"
+            href={`https://github.com/theprivacydev/${showProject
+              .split(/(?=[A-Z])/)
+              .join("-")
+              .toLowerCase()}`}
+            target="_blank"
           >
-            <img
-              className="image"
-              src={gifs[showProject]}
-              alt="none"
-            /><span onClick={handleShowDialog} className="closeGif">X</span>
-            <a rel="noreferrer" href={`https://github.com/theprivacydev/${showProject.split(/(?=[A-Z])/).join("-").toLowerCase()}`} target="_blank">
-              <Button className="viewCodeBtn">View Code</Button>
-            </a>
-          </dialog>
-        )}
-      </div>
-    );
+            <Button className="viewCodeBtn">View Code</Button>
+          </a>
+        </dialog>
+      )}
+    </div>
+  );
 }
 
 export default ProjectDemo;
