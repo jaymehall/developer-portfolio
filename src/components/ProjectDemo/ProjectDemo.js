@@ -25,7 +25,7 @@ function ProjectDemo({ showProject, setShowProject, gitRepURL }) {
   };
 
   return (
-    <div>
+    <div id="demo">
       {showProject && (
         <dialog className="dialog" style={{ position: "absolute" }} open>
           <img className="image" src={gifs[showProject]} alt="none" />
