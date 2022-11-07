@@ -4,19 +4,21 @@ import "./Experience.css";
 function Experience() {
   return (
     <div>
-      <h2 id="viewWork"
+      <h2
+        id="viewWork"
         style={{ marginTop: "50px", marginLeft: "20px", marginRight: "20px" }}
         className="sectionTitle title"
       >
         Live, Production-Ready Software I've Helped Build
       </h2>
       <div className="experienceContain">
-        <div style={{margin: "50px"}}>
+        <div style={{ margin: "50px" }}>
           <h5 className="sectionTitle">Web2</h5>
           <h6 style={{ textAlign: "center" }}>
             <a
               style={{ color: "cadetblue", fontWeight: "bold" }}
               rel="noreferrer"
+              target="_blank"
               href="https://app.scopestack.io/"
             >
               ScopeStack
@@ -29,12 +31,13 @@ function Experience() {
             Board.
           </p>
         </div>
-        <div style={{margin: "50px"}}>
+        <div style={{ margin: "50px" }}>
           <h5 className="sectionTitle">Web3</h5>
           <h6 style={{ textAlign: "center" }}>
             <a
               style={{ color: "cadetblue", fontWeight: "bold" }}
               rel="noreferrer"
+              target="_blank"
               href="https://exwqn-uaaaa-aaaaf-qaeaa-cai.ic0.app/"
             >
               Nuance Dapp
