@@ -41,7 +41,9 @@ function FlipCard({
               gitRepURL !==
                 "https://github.com/team-crypto-currency/crypto-investment-tracker" &&
               gitRepURL !==
-                "https://github.com/theprivacydev/blockchain-app" ? (
+                "https://github.com/theprivacydev/blockchain-app" &&
+                gitRepURL !==
+                  "https://github.com/theprivacydev/eth-memos" ? (
                 <a rel="noreferrer" target="_blank" href={`${child6}`}>
                   <Button className="viewSiteBtn" variant="light">
                     Live Site

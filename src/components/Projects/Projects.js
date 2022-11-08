@@ -39,7 +39,7 @@ function Projects({ gitRepURL }) {
           child4="Node JS | Express"
           child5="MongoDB"
           child6="https://eth-memos.herokuapp.com/"
-          description="This is a basic desktop application designed to allow users to simply create, read, and update memos. BE ADVISED: Long wait times on Live Site"
+          description="This is a basic desktop application designed to allow users to simply create, read, and update memos."
           gitRepURL="https://github.com/theprivacydev/eth-memos"
         />
         <FlipCard
