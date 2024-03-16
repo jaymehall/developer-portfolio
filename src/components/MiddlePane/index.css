@@ -52,6 +52,12 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .experienceSection {
+    width: 100% !important;
+  }
+}
+
 
 
 /*# sourceMappingURL=index.css.map */

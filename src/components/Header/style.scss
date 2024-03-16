@@ -25,6 +25,8 @@ body {
   margin: 15px 20px 0 20px;
   background-image: url("./networkGif.gif");
   height: 650px;
+  background-position: unset;
+  background-size: contain;
 }
 
 // .layer {
@@ -87,3 +89,10 @@ a.viewWork:hover {
     background-size: contain;
   }
 } /* Target Phone Exclusively */
+
+@media only screen and (max-width: 1025px) and (orientation : portrait) {
+  .bg {
+    background-size: contain !important;
+    background-position: unset !important;
+  }
+} /* Target ipad Exclusively */
