@@ -32,6 +32,7 @@ function Experience() {
             <a
               href="https://scopestack.io/?utm_term=scopestack&utm_campaign=branded-and-high-intent-cpq&utm_source=adwords&utm_medium=ppc&hsa_acc=8817741425&hsa_cam=18653863670&hsa_grp=148951896705&hsa_ad=659894493493&hsa_src=g&hsa_tgt=kwd-1711561996522&hsa_kw=scopestack&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0GoiiQT3aHlr41lpk6pC1wvhx9aY6c1hp-XHHnFZmVlhFem4GGAFMxpsaAhGPEALw_wcB"
               target="_blank"
+              rel="noreferrer"
             >
               here
             </a>
