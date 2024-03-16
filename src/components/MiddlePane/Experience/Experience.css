@@ -18,7 +18,7 @@
     text-align: center;
     -webkit-transform: translate(0%, -50%);
             transform: translate(0%, -50%);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 30px;
   }
 
@@ -34,17 +34,29 @@
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 540px) and (max-width: 767px) {
     .section {
-        margin: 20px;
+        margin: 20px 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1025px) and (orientation : portrait) {
+    .experienceSection {
+      width: 72% !important;
+    }
+  } /* Target ipad Exclusively */
+
+  @media only screen and (min-width: 360px) and (max-width: 667px) {
+    .title {
+      font-size: x-large;
     }
     .experienceContain {
       margin-left: 0 !important;
     }
-  }
-
-  @media only screen and (min-width: 375px) and (max-width: 667px) {
-    .title {
-      font-size: x-large;
+    .experienceSection {
+      width: 100%;
     }
+    .section {
+      margin: 20px 0;
+  }
   }

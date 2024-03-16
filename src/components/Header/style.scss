@@ -89,10 +89,3 @@ a.viewWork:hover {
     background-size: contain;
   }
 } /* Target Phone Exclusively */
-
-@media only screen and (max-width: 1025px) and (orientation : portrait) {
-  .bg {
-    background-size: contain !important;
-    background-position: unset !important;
-  }
-} /* Target ipad Exclusively */
