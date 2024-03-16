@@ -26,7 +26,7 @@ function Experience() {
           </h6>
           <p className="introText">
             Use the link and sign up for a free plan to explore this app. I have
-            rebuilt almost this entire front-end with React. It was previously
+            rebuilt almost this entire front end with React. It was previously
             built with haml files and Ruby on Rails partials before I came on
             Board.
           </p>

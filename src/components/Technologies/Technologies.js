@@ -15,20 +15,20 @@ function Technologies () {
                 <Box className="techBox"
                 icon={faNetworkWired}
                 heading="Front end"
-                child1="HTML5"
-                child2="CSS3 | SASS"
-                child3="JavaScript"
-                child4="Bootstrap | Tailwind CSS"
-                child5="React"
+                child1="JavaScript | Typescript"
+                child2="Angular"
+                child3="React | Next.js"
+                child4="Bootstrap | Tailwind | Material"
+                child5="HTML5 | CSS3 | SASS | jQuery"
                 />
                 <Box className="techBox"
                 icon={faDatabase}
                 heading="Back End"
-                child1="Node JS"
-                child2="Express"
-                child3="MySQL"
-                child4="MongoDB"
-                child5="Ruby on Rails"
+                child1="Java | Spring Boot"
+                child2="Ruby on Rails | MVC"
+                child3="Node JS / Express"
+                child4="MySQL"
+                child5="MongoDB"
                 />
                 <Box className="techBox"
                 icon={faServer}
@@ -42,11 +42,11 @@ function Technologies () {
                 <Box className="techBox"
                 icon={faCodeBranch}
                 heading="Tools"
-                child1="Git | Yarn | NPM"
-                child2="Kanban | JIRA | Azure"
-                child3="Context API | Redux"
-                child4="AWS | Passport | Oauth2"
-                child5="Next.j for SEO"/>
+                child1="Maven | JPA"
+                child2="Context API | Redux"
+                child3="Jenkins"
+                child4="AWS | Oauth2"
+                child5="Git | Yarn | NPM"/>
             </div>
         </div>
     )

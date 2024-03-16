@@ -30,20 +30,14 @@ function MiddlePane() {
           <article>
             <h5 className="sectionTitle">Time-Tested Results</h5>
             <div className="introText">
-              As a determined individual with an ability to learn quickly, I
-              began as a self-taught programmer and went on to graduate from the
-              University of Oregon's Full Stack Coding Bootcamp. I use a
-              consistent approach to quickly produce effective, clean code with
-              a focus on accessibility and scalability.
+              As am experienced full stack software engineer, I use a
+              consistent approach to quickly produce highly manageable, clean code with a focus on accessibility and scalability. I enjoy using my experience to mentor more junior developers and bridge the gap between business requirements and the research and development team.
             </div>
           </article>
           <article className="secondSection">
             <h5 className="sectionTitle">Deliverable Productivity</h5>
             <div className="introText">
-              As an experienced and efficient communicator, I fit seamlessly
-              into any healthy and organized work environment. I have created features for enterprise clients that directly impact company revenue, and worked in an agile process to deliver visible and testable results in a timely fashion. I always stay up to date on the most relevant frameworks and
-              libraries, so I am continuously adding to my repertoire of
-              technologies.
+              As an experienced and efficient communicator, I am adept at adapting to new processes, so I quickly become productive in new development environments. I have maintained a confidential security clearance administered by the US Federal Government, built payment systems for software utilized by the National Institute of Health, and improved the efficiency and productivity of the development process for companies operating at the enterprise level.
             </div>
           </article>
         </div>
