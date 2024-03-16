@@ -19,14 +19,7 @@ function Footer() {
         >
           <FontAwesomeIcon className="iconLogo" icon={faGithubSquare} />
         </a>
-        <a
-          onClick={() => false}
-          rel="noreferrer"
-          target="_blank"
-          // href="https://www.linkedin.com/"
-        >
-          <FontAwesomeIcon className="iconLogo disabled" icon={faLinkedin} />
-        </a>
+        <FontAwesomeIcon className="iconLogo disabled" icon={faLinkedin} />
         {/* <a rel="noreferrer" target="_blank" href="https://twitter.com/theprivacydev">
           <FontAwesomeIcon className="iconLogo" icon={faTwitter} />
         </a> */}
