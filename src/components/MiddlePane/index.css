@@ -16,6 +16,14 @@
   margin-top: 40px;
 }
 
+.experienceSection {
+  width: 40%;
+}
+
+.experienceText1 {
+  width: 70% !important;
+}
+
 .introText {
   width: 50%;
   display: block;

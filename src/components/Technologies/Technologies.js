@@ -18,8 +18,8 @@ function Technologies () {
                 child1="JavaScript | Typescript"
                 child2="Angular"
                 child3="React | Next.js"
-                child4="Bootstrap | Tailwind | Material"
-                child5="HTML5 | CSS3 | SASS | jQuery"
+                child4="Bootstrap | Material"
+                child5="CSS3 | SASS | Tailwind"
                 />
                 <Box className="techBox"
                 icon={faDatabase}

@@ -37,6 +37,10 @@
   transform: scale(0.9);
 }
 
+.disabled {
+  color: grey !important;
+}
+
 @media only screen and (max-width: 1424px) {
   .footerBg {
     width: 96%;
