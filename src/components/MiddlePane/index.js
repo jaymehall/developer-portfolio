@@ -25,7 +25,7 @@ function MiddlePane() {
         />
       </section>
       <section className="middleContainer">
-        <h2 className="title">Full Stack Developer</h2>
+        <h2 className="title">Full Stack Engineer</h2>
         <div className="middleText">
           <article>
             <h5 className="sectionTitle">Time-Tested Results</h5>
