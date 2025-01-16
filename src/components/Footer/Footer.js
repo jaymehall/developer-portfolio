@@ -19,7 +19,13 @@ function Footer() {
         >
           <FontAwesomeIcon className="iconLogo" icon={faGithubSquare} />
         </a>
-        <FontAwesomeIcon className="iconLogo disabled" icon={faLinkedin} />
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/jayme-hall"
+        >
+          <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
+        </a>
         {/* <a rel="noreferrer" target="_blank" href="https://twitter.com/theprivacydev">
           <FontAwesomeIcon className="iconLogo" icon={faTwitter} />
         </a> */}
@@ -31,16 +37,6 @@ function Footer() {
           <FontAwesomeIcon className="iconLogo" icon={faEnvelopeSquare} />
         </a>
       </div>
-      <h4
-        style={{
-          marginLeft: "2%",
-          paddingBottom: "30px",
-          color: "whitesmoke",
-          paddingTop: "10px"
-        }}
-      >
-        theprivacydev.eth
-      </h4>
     </div>
   );
 }
