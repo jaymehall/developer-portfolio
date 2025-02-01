@@ -6,7 +6,7 @@ function Experience() {
     <div>
       <h2
         id="viewWork"
-        style={{ marginTop: "50px", marginLeft: "20px", marginRight: "20px" }}
+        style={{ marginTop: "70px", marginLeft: "20px", marginRight: "20px" }}
         className="sectionTitle title"
       >
         Live, Production-Ready Software I've Helped Build
