@@ -1,9 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import {faLinkedin, faGithubSquare, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.css";
 
@@ -26,9 +24,9 @@ function Footer() {
         >
           <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
         </a>
-        {/* <a rel="noreferrer" target="_blank" href="https://twitter.com/theprivacydev">
+        <a rel="noreferrer" target="_blank" href="https://x.com/theprivacydev">
           <FontAwesomeIcon className="iconLogo" icon={faTwitter} />
-        </a> */}
+        </a>Ï
         <a
           rel="noreferrer"
           target="_blank"
