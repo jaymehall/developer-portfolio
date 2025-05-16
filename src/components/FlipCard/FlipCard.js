@@ -51,7 +51,7 @@ function FlipCard({
                 </a>
               ) : null}
               {gitRepURL ===
-              "https://github.com/jaymehall/blockchain-app" ? (
+              "https://github.com/theprivacydev/blockchain-app" ? (
                 <a rel="noreferrer" target="_blank" href={`${gitRepURL}`}>
                   <Button className="viewSiteBtn" variant="light">
                     GitHub Repo

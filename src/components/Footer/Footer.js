@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {faLinkedin, faGithubSquare, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.css";
