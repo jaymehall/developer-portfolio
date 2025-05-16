@@ -34,7 +34,7 @@ function ProjectDemo({ showProject, setShowProject, gitRepURL }) {
           </span>
           <a
             rel="noreferrer"
-            href={`https://github.com/theprivacydev/${showProject
+            href={`https://github.com/jaymehall/${showProject
               .split(/(?=[A-Z])/)
               .join("-")
               .toLowerCase()}`}

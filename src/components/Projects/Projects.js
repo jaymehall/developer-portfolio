@@ -27,7 +27,7 @@ function Projects({ gitRepURL }) {
           child5="Web3.js"
           child6="#"
           description="This application is designed to build and deploy an ERC20 Token in compliance with EIP standards and to build an Exchange to use the Token."
-          gitRepURL="https://github.com/theprivacydev/blockchain-app"
+          gitRepURL="https://github.com/jaymehall/blockchain-app"
         />
         <FlipCard
           setShowProject={setShowProject}
@@ -40,7 +40,7 @@ function Projects({ gitRepURL }) {
           child5="MongoDB"
           child6="https://eth-memos.herokuapp.com/"
           description="This is a basic desktop application designed to allow users to simply create, read, and update memos."
-          gitRepURL="https://github.com/theprivacydev/eth-memos"
+          gitRepURL="https://github.com/jaymehall/eth-memos"
         />
         <FlipCard
           setShowProject={setShowProject}
@@ -64,9 +64,9 @@ function Projects({ gitRepURL }) {
           child3="JavaScript | jQuery"
           child4="OpenWeather API"
           child5="AJAX"
-          child6="https://theprivacydev.github.io/travelers-weather-dash/"
+          child6="https://jaymehall.github.io/travelers-weather-dash/"
           description="Loads a 5-day forecast for any city the user searches for. Cities are stored in client-side storage for the user to return to at will."
-          gitRepURL="https://github.com/theprivacydev/travelers-weather-dash"
+          gitRepURL="https://github.com/jaymehall/travelers-weather-dash"
         />
         <FlipCard
           setShowProject={setShowProject}
@@ -79,7 +79,7 @@ function Projects({ gitRepURL }) {
           child5="Ruby on Rails"
           child6="Not Deployed"
           description="This application is designed to explore the possibility of using Ruby on Rails and React front end framework together to create a fully functional basic CRUD application."
-          gitRepURL="https://github.com/theprivacydev/rails-friends"
+          gitRepURL="https://github.com/jaymehall/rails-friends"
         />
       </div>
     </div>

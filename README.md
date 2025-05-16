@@ -46,4 +46,4 @@ Click on the deployed link above to browse my projects, view my resume, and more
 For additional questions please contact:
 * The Privacy Dev
 * Email: theprivacydev@protonmail.com
-* https://github.com/theprivacydev/
+* https://github.com/jaymehall/
