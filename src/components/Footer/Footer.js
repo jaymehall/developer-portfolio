@@ -13,7 +13,7 @@ function Footer() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/theprivacydev/"
+          href="https://github.com/jaymehall/"
         >
           <FontAwesomeIcon className="iconLogo" icon={faGithubSquare} />
         </a>
@@ -24,9 +24,6 @@ function Footer() {
         >
           <FontAwesomeIcon className="iconLogo" icon={faLinkedin} />
         </a>
-        <a rel="noreferrer" target="_blank" href="https://x.com/theprivacydev">
-          <FontAwesomeIcon className="iconLogo" icon={faTwitter} />
-        </a>Ï
         <a
           rel="noreferrer"
           target="_blank"

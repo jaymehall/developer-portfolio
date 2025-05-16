@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import MyPic from "./MyPicSmall.jpg";
+import MyPic from "./MySmallPic.jpeg";
 
 function MiddlePane() {
   return (
