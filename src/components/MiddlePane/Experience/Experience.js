@@ -38,8 +38,7 @@ function Experience() {
             </a>
             . I have re-built the majority of this application's front end with
             a front-end framework called React, which improved it's speed and
-            usability significantly. It was previously built with haml files and
-            Ruby on Rails partials before I came on board.
+            usability significantly.
           </p>
         </div>
         <div className="section experienceSection">
