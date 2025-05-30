@@ -10,10 +10,10 @@ function Header() {
       <div className="logo">
       </div>
       <div className="headerText">
-        <h4 className="subtitle" style={{padding: "20px", marginTop: "100%"}}>Software Engineer</h4>
+        <h4 className="subtitle" style={{ padding: "20px", marginTop: "100%", fontWeight: "bold" }}>Software Engineer</h4>
         <Router>
           <Button className="viewWorkBtn" variant="light">
-            <HashLink className="viewWork" to="/#viewWork">
+            <HashLink style={{ fontWeight: "bold" }} className="viewWork" to="/#viewWork">
               View My Work
             </HashLink>
           </Button>

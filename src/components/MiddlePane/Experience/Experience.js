@@ -16,7 +16,7 @@ function Experience() {
           <h5 className="sectionTitle">Web2</h5>
           <h6 style={{ textAlign: "center" }}>
             <a
-              style={{ color: "cadetblue", fontWeight: "bold" }}
+              style={{ fontWeight: "bold" }}
               rel="noreferrer"
               target="_blank"
               href="https://app.scopestack.io/"
@@ -45,7 +45,7 @@ function Experience() {
           <h5 className="sectionTitle">Web3</h5>
           <h6 style={{ textAlign: "center" }}>
             <a
-              style={{ color: "cadetblue", fontWeight: "bold" }}
+              style={{ fontWeight: "bold" }}
               rel="noreferrer"
               target="_blank"
               href="https://exwqn-uaaaa-aaaaf-qaeaa-cai.ic0.app/"
