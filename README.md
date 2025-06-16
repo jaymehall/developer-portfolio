@@ -6,20 +6,19 @@
 This is a responsive, dynamic Portfolio designed to showcase my projects and online presence as a developer. This web application is built with React.js and Bootstrap Components.
 
 ## Table of Contents
-  - [Installation](#installation)
   - [Deployment](#deployment)
+  - [Installation](#installation)
   - [Usage](#usage)
   - [Technologies](#technologies)
   - [License](#license)
   - [Next Steps](#next-steps)
   - [Questions](#questions)
 
+## Deployment
+* https://the-privacy-dev.netlify.app/ 
 
 ## Installation
 ``` npm i ```
-
-## Deployment
-* https://the-privacy-dev.netlify.app/ 
 
 ## Usage
 Click on the deployed link above to browse my projects, view my resume, and more.
@@ -32,7 +31,6 @@ Click on the deployed link above to browse my projects, view my resume, and more
 * Bootstrap/React-Bootstrap
 
 ## License
-
 
   [MIT](https://opensource.org/licenses/MIT)
   
