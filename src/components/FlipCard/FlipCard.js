@@ -37,19 +37,6 @@ function FlipCard({
           <Router>
             <div className="cardBackContent">
               <h5 className="description">{description}</h5>
-              {gitRepURL !== "https://github.com/jaymehall/rails-friends" &&
-              gitRepURL !==
-                "https://github.com/team-crypto-currency/crypto-investment-tracker" &&
-              gitRepURL !==
-                "https://github.com/jaymehall/blockchain-app" &&
-                gitRepURL !==
-                  "https://github.com/jaymehall/eth-memos" ? (
-                <a rel="noreferrer" target="_blank" href={`${child6}`}>
-                  <Button className="viewSiteBtn" variant="light">
-                    Live Site
-                  </Button>
-                </a>
-              ) : null}
               {gitRepURL ===
               "https://github.com/jaymehall/blockchain-app" ? (
                 <a rel="noreferrer" target="_blank" href={`${gitRepURL}`}>
