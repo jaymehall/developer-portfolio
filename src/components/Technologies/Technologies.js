@@ -12,25 +12,25 @@ function Technologies () {
         <div className="middleBg">
             {/* <div className="film"></div> */}
             <div className="wrapper">
-                <Box className="techBox"
+                <Box
                 icon={faNetworkWired}
-                heading="Front end"
+                heading="Front End"
                 child1="JavaScript | TypeScript | HTML5"
-                child2="React | Next.js | Angular"
+                child2="React | Next.js | Angular | Vite"
                 child3="CSS3 | Sass/SCSS | Tailwind"
                 child4="Bootstrap | Material"
-                child5="UI/UX Design | Jotai"
+                child5="Redux | Context | Jotai"
                 />
-                <Box className="techBox"
+                <Box
                 icon={faDatabase}
-                heading="Back End"
+                heading="Back End / DB"
                 child1="Java | Python | Ruby on Rails"
                 child2="Node.js | Express.js"
-                child3="RESTful APIs | MVC"
+                child3="ORMs| MVC | RESTful APIs"
                 child4="MySQL | PostgreSQL | MongoDB"
-                child5="SQLite3 | Redis | SQL Alchemy"
+                child5="SQLite3 | Redis"
                 />
-                <Box className="techBox"
+                <Box
                 icon={faServer}
                 heading="AI / ML"
                 child1="OpenAI API | LangChain"
@@ -39,11 +39,11 @@ function Technologies () {
                 child4="Chain-of-Thought Reasoning"
                 child5="Cursor AI"
                 />
-                <Box className="techBox"
+                <Box
                 icon={faCodeBranch}
                 heading="Tools"
-                child1="Git | GitHub | GitLab | Bitbucket"
-                child2="Maven | Spring Boot | Liquibase | Sequelize"
+                child1="Git | GitHub | Bitbucket"
+                child2="Maven | Spring Boot | Liquibase"
                 child3="Jenkins | CircleCI | Docker | Vercel"
                 child4="AWS | Azure | OAuth2"
                 child5="Jira | Confluence | VS Code | JetBrains"
