@@ -15,38 +15,39 @@ function Technologies () {
                 <Box className="techBox"
                 icon={faNetworkWired}
                 heading="Front end"
-                child1="JavaScript | Typescript"
-                child2="Angular"
-                child3="React | Next.js"
+                child1="JavaScript | TypeScript | HTML5"
+                child2="React | Next.js | Angular"
+                child3="CSS3 | Sass/SCSS | Tailwind"
                 child4="Bootstrap | Material"
-                child5="CSS3 | SASS | Tailwind"
+                child5="UI/UX Design | Jotai"
                 />
                 <Box className="techBox"
                 icon={faDatabase}
                 heading="Back End"
-                child1="Java | Spring Boot"
-                child2="Ruby on Rails | MVC"
-                child3="Node JS / Express"
-                child4="MySQL"
-                child5="MongoDB"
+                child1="Java | Python | Ruby on Rails"
+                child2="Node.js | Express.js"
+                child3="RESTful APIs | MVC"
+                child4="MySQL | PostgreSQL | MongoDB"
+                child5="SQLite3 | Redis | SQL Alchemy"
                 />
                 <Box className="techBox"
                 icon={faServer}
-                heading="Blockchain"
-                child1="Solidity"
-                child2="Web3.js"
-                child3="Ether.js | Ethereum"
-                child4="Truffle Suite"
-                child5="Motoko | Canisters"
+                heading="AI / ML"
+                child1="OpenAI API | LangChain"
+                child2="Retrieval-Augmented Generation (RAG)"
+                child3="Agentic Workflows | Prompt Engineering"
+                child4="Chain-of-Thought Reasoning"
+                child5="Cursor AI"
                 />
                 <Box className="techBox"
                 icon={faCodeBranch}
                 heading="Tools"
-                child1="Maven | JPA"
-                child2="Context API | Redux"
-                child3="Jenkins"
-                child4="AWS | Oauth2"
-                child5="Git | Yarn | NPM"/>
+                child1="Git | GitHub | GitLab | Bitbucket"
+                child2="Maven | Spring Boot | Liquibase | Sequelize"
+                child3="Jenkins | CircleCI | Docker | Vercel"
+                child4="AWS | Azure | OAuth2"
+                child5="Jira | Confluence | VS Code | JetBrains"
+                />
             </div>
         </div>
     )
