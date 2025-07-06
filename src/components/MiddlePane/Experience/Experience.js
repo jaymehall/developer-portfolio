@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import { Col, Row } from "react-bootstrap";
 
 function Experience() {
   return (
@@ -11,8 +12,8 @@ function Experience() {
       >
         Real-World Software Solutions I've Helped Deliver
       </h2>
-      <div className="experienceContain">
-        <div className="section experienceSection">
+      <Row style={{justifyContent: "center"}}>
+        <Col sm={12} md={5} className="section">
           <h6 style={{ textAlign: "center" }}>
             <a
               style={{ fontWeight: "bold" }}
@@ -23,11 +24,11 @@ function Experience() {
               Tripoint Solutions
             </a>
           </h6>
-          <p className="introText experienceText1">
+          <p className="experienceDescription">
             As a Senior Full Stack Developer at Tripoint Solutions supporting the NIH, I contributed to mission-critical federal health initiatives in a secure environment. I engineered the finance module of the application using Java, SQL, and Angular, leading performance optimizations that improved system efficiency by 30%. I implemented test-driven development to raise code quality to 95% and drove key improvements across both backend and frontend systems. Awarded two impact bonuses for delivering sustainable, high-impact solutions aligned with Tripoint’s mission.
           </p>
-        </div>
-        <div className="section experienceSection">
+        </Col>
+        <Col sm={12} md={5} className="section">
           <h6 style={{ textAlign: "center" }}>
             <a
               style={{ fontWeight: "bold" }}
@@ -38,11 +39,11 @@ function Experience() {
               ScopeStack
             </a>
           </h6>
-          <p className="introText experienceText1">
+          <p className="experienceDescription">
             A SaaS platform that automates polished proposals, estimates, and Statements of Work by combining pricing and Level of Effort data. I rebuilt most of the front end in React, enhancing performance and usability. Key contributions include dynamic document generation, real-time data handling, modular UI components, and migrating legacy code toward a more scalable architecture—laying the groundwork for a future single-page application (SPA).
           </p>
-        </div>
-        {/* <div className="section experienceSection">
+        </Col>
+        {/* <div className="section">
           <h6 style={{ textAlign: "center" }}>
             <a
               style={{ fontWeight: "bold" }}
@@ -53,11 +54,11 @@ function Experience() {
               Nuance Dapp
             </a>
           </h6>
-          <p className="introText experienceText1">
+          <p>
             A Web3 blogging Dapp built on the Internet Computer Protocol (ICP) blockchain, featuring secure, decentralized identity management via modern cryptographic authentication. I migrated the app to Next.js, enhancing performance, scalability, and maintainability. Users can explore content without logging in or authenticate via Internet Identity or Stoic Wallet.
           </p>
         </div> */}
-      </div>
+      </Row>
     </div>
   );
 }
