@@ -10,10 +10,10 @@ import "./App.css";
 import Experience from "./components/MiddlePane/Experience/Experience";
 import theprivacydevlogo from "./components/Header/theprivacydevlogo.png"
 
-
 function App() {
     const [isLoading, setIsLoading] = useState(true);
 
+    // Set is loading to false after 1 second
     useEffect(() => {
         const timer = setTimeout(() => setIsLoading(false), 1000);
         return () => clearTimeout(timer);
