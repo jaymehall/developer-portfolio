@@ -27,7 +27,7 @@ function Footer() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="mailto:theprivacydev@protonmail.com"
+          href="mailto:hjayme@protonmail.com"
         >
           <FontAwesomeIcon className="iconLogo" icon={faEnvelopeSquare} />
         </a>

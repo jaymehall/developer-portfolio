@@ -20,7 +20,7 @@ function App() {
       }, []);
     
       if (isLoading) {
-        return <div className="preloader"><span><img src={theprivacydevlogo} alt="the privacy dev logo" /></span><span>Loading...</span></div>;
+        return <div className="preloader"><span><img src={theprivacydevlogo} alt="Jayme Hall logo" /></span><span>Loading...</span></div>;
       }
 
     return (

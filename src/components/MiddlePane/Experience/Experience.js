@@ -25,7 +25,7 @@ function Experience() {
             </a>
           </h6>
           <p className="experienceDescription">
-            As a Senior Full Stack Developer at Tripoint Solutions supporting the NIH, I contributed to mission-critical federal health initiatives in a secure environment. I engineered the finance module of the application using Java, SQL, and Angular, leading performance optimizations that improved system efficiency by 30%. I implemented test-driven development to raise code quality to 95% and drove key improvements across both backend and frontend systems. Awarded two impact bonuses for delivering sustainable, high-impact solutions aligned with Tripoint’s mission.
+            At Tripoint Solutions supporting the NIH, I engineered the enterprise finance module for a federal electronic government ordering platform using Java, Spring Boot, and JPA. I designed strict service layer separation, repository abstractions over stored procedures, and well-defined API contracts that downstream modules depended on. I managed database schema versioning with Liquibase, championed test-driven development to bring code quality to 95%, and identified critical performance bottlenecks in stored procedures and SQL queries that measurably reduced page load times. Earned a U.S. Federal Security Clearance and two impact bonuses for contributions to mission-critical systems.
           </p>
         </Col>
         <Col sm={12} md={5} className="section">
@@ -40,7 +40,7 @@ function Experience() {
             </a>
           </h6>
           <p className="experienceDescription">
-            A SaaS platform that automates polished proposals, estimates, and Statements of Work by combining pricing and Level of Effort data. I rebuilt most of the front end in React, enhancing performance and usability. Key contributions include dynamic document generation, real-time data handling, modular UI components, and migrating legacy code toward a more scalable architecture—laying the groundwork for a future single-page application (SPA).
+            A SaaS platform that automates polished proposals, estimates, and Statements of Work by combining pricing and Level of Effort data. I rebuilt the company's entire frontend in React single-handedly, replacing legacy code with modular, reusable components while preserving the MVC architecture. I built high-performance pricing algorithms in JavaScript that integrated across the application, led the frontend engineering team's technical direction and hiring decisions, and delivered a critical feature for a prospective client that drove $75,000 in new annual revenue.
           </p>
         </Col>
         {/* <div className="section">

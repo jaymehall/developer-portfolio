@@ -35,9 +35,10 @@ function Technologies () {
                 heading="AI / ML"
                 child1="OpenAI API | LangChain"
                 child2="Retrieval-Augmented Generation (RAG)"
-                child3="Agentic Workflows | Prompt Engineering"
-                child4="Chain-of-Thought Reasoning"
-                child5="Cursor AI"
+                child3="Knowledge Graphs | Neo4j"
+                child4="Agentic Workflows"
+                child5="LangSmith | Langfuse"
+                child6="Claude Code"
                 />
                 <Box
                 icon={faCodeBranch}

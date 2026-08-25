@@ -25,7 +25,7 @@ function MiddlePane() {
         />
       </section>
       <section className="middleContainer">
-        <h2 className="title">Full Stack Engineer</h2>
+        <h2 className="title">Senior Full Stack Engineer</h2>
         <div className="middleText">
           <article>
             <h5 className="sectionTitle">Time-Tested Results</h5>
@@ -35,7 +35,7 @@ function MiddlePane() {
             </div>
           </article>
           <article className="secondSection">
-            <h5 className="sectionTitle">Deliverable Productivity</h5>
+            <h5 className="sectionTitle">Productive from Day One</h5>
             <div className="introText">
               As an experienced and efficient communicator, I easily adapt to new processes, so I quickly become productive in new development environments. I have maintained a confidential security clearance administered by the US Federal Government, built payment systems for software utilized by the National Institute of Health, and improved the efficiency and productivity of the development process for companies operating at the enterprise level.
             </div>

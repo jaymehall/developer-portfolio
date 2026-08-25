@@ -16,6 +16,7 @@ function Box(props) {
                   <div>{props.child3}</div>
                   <div>{props.child4}</div>
                   <div>{props.child5}</div>
+                  <div>{props.child6}</div>
                 </Card.Text>
               </Card.Body>
             </Card>
