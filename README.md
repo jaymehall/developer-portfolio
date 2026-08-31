@@ -1,47 +1,55 @@
-
-
 # Developer Portfolio
 
 ## Description
-This is a responsive, dynamic Portfolio designed to showcase my projects and online presence as a developer. This web application is built with React.js and Bootstrap Components.
+
+A responsive, dynamic portfolio site showcasing my projects and online presence as a developer. Built with React.js and Bootstrap.
 
 ## Table of Contents
-  - [Deployment](#deployment)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Technologies](#technologies)
-  - [License](#license)
-  - [Next Steps](#next-steps)
-  - [Questions](#questions)
+
+- [Deployment](#deployment)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
+- [Next Steps](#next-steps)
+- [Questions](#questions)
 
 ## Deployment
-* [https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
+
+[https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
 
 ## Installation
-``` npm i ```
+
+```
+npm i
+```
 
 ## Usage
-Click on the deployed link above to browse my projects, view my resume, and more.
+
+Visit the deployed link above to browse my projects, view my resume, and more.
 
 ## Technologies
-* JavaScript 
-* Node Js  
-* React.js 
-* CSS3/Saas/Scss
-* Bootstrap/React-Bootstrap
+
+- JavaScript
+- Node.js
+- React.js
+- CSS3 / Sass / SCSS
+- Bootstrap / React-Bootstrap
 
 ## License
 
-  [MIT](https://opensource.org/licenses/MIT)
-  
+[MIT](https://opensource.org/licenses/MIT)
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
+![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
 
 ## Next Steps
-* Update projects regularly
+
+- Update projects regularly
 
 ## Questions
+
 For additional questions please contact:
-* The Privacy Dev
-* Email: theprivacydev@protonmail.com
-* https://github.com/jaymehall/
+
+- Jayme Hall
+- Email: hjayme@protonmail.com
+- GitHub: [https://github.com/jaymehall/](https://github.com/jaymehall/)
