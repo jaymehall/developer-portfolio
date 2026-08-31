@@ -1,23 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./projects.css";
 import FlipCard from "../FlipCard/FlipCard";
-import ProjectDemo from "../ProjectDemo/ProjectDemo";
 
-function Projects({ gitRepURL }) {
-  const [showProject, setShowProject] = useState("");
-
+function Projects() {
   return (
     <div style={{ position: "relative" }}>
       <h2 className="projectsTitle">Projects</h2>
-      <ProjectDemo
-        setShowProject={setShowProject}
-        showProject={showProject}
-        gitRepURL={gitRepURL}
-      />
       <div className="projectsContainer">
         <FlipCard
-          setShowProject={setShowProject}
           className="projectCard"
           heading="LLM Evaluation Harness"
           child1="Python"
@@ -30,7 +21,6 @@ function Projects({ gitRepURL }) {
           gitRepURL="https://github.com/jaymehall/llm-evaluation-harness"
         />
         <FlipCard
-          setShowProject={setShowProject}
           className="projectCard"
           heading="Blockchain App"
           child1="React | Redux"
@@ -43,20 +33,18 @@ function Projects({ gitRepURL }) {
           gitRepURL="https://github.com/jaymehall/blockchain-app"
         />
         <FlipCard
-          setShowProject={setShowProject}
           className="projectCard"
-          heading="Eth Memos"
-          child1="React"
-          child2="JavaScript"
-          child3="Bootstrap"
-          child4="Node JS | Express"
-          child5="MongoDB"
-          child6="https://eth-memos.herokuapp.com/"
-          description="This is a basic desktop application designed to allow users to simply create, read, and update memos."
-          gitRepURL="https://github.com/jaymehall/eth-memos"
+          heading="Iron Mind"
+          child1="React Native"
+          child2="Python"
+          child3="Microservices"
+          child4="Docker"
+          child5="AI Coaching"
+          child6="Not Deployed"
+          description="IronMind.ai is an AI-powered fitness coaching app for bodybuilders and fitness enthusiasts. Log workouts, analyze meals, and chat with an AI coach from your phone or browser."
+          gitRepURL="https://github.com/jaymehall/iron-mind"
         />
         <FlipCard
-          setShowProject={setShowProject}
           className="projectCard"
           heading="Crypto Tracker"
           child1="JavaScript | MySQL"
@@ -69,7 +57,6 @@ function Projects({ gitRepURL }) {
           gitRepURL="https://github.com/team-crypto-currency/crypto-investment-tracker"
         />
         <FlipCard
-          setShowProject={setShowProject}
           className="projectCard"
           heading="Rails Friends"
           child1="JavaScript"
