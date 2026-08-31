@@ -38,7 +38,9 @@ function FlipCard({
             <div className="cardBackContent">
               <h5 className="description">{description}</h5>
               {gitRepURL ===
-              "https://github.com/jaymehall/blockchain-app" ? (
+                "https://github.com/jaymehall/blockchain-app" ||
+              gitRepURL ===
+                "https://github.com/jaymehall/llm-evaluation-harness" ? (
                 <a rel="noreferrer" target="_blank" href={`${gitRepURL}`}>
                   <Button className="viewSiteBtn" variant="light">
                     GitHub Repo

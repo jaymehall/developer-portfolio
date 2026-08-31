@@ -19,6 +19,19 @@ function Projects({ gitRepURL }) {
         <FlipCard
           setShowProject={setShowProject}
           className="projectCard"
+          heading="LLM Evaluation Harness"
+          child1="Python"
+          child2="pytest | pytest-asyncio"
+          child3="DeepEval"
+          child4="Pydantic"
+          child5="OpenAI Structured Outputs"
+          child6="Not Deployed"
+          description="Production LLM evaluation harness: a 3-judge LLM-as-a-judge scoring system (faithfulness, precision, recall) that gates every release with 320+ automated evaluations."
+          gitRepURL="https://github.com/jaymehall/llm-evaluation-harness"
+        />
+        <FlipCard
+          setShowProject={setShowProject}
+          className="projectCard"
           heading="Blockchain App"
           child1="React | Redux"
           child2="JavaScript"
@@ -54,19 +67,6 @@ function Projects({ gitRepURL }) {
           child6="https://crypto-investment-tracker.herokuapp.com/"
           description="Full-Stack app that allows user to sign up, log in, search and save various crypto coins to a MySQL database based on the current price and trading indicators."
           gitRepURL="https://github.com/team-crypto-currency/crypto-investment-tracker"
-        />
-        <FlipCard
-          setShowProject={setShowProject}
-          className="projectCard"
-          heading="Travelers Weather Dash"
-          child1="HTML5 | CSS3"
-          child2="Bootstrap"
-          child3="JavaScript | jQuery"
-          child4="OpenWeather API"
-          child5="AJAX"
-          child6="https://jaymehall.github.io/travelers-weather-dash/"
-          description="Loads a 5-day forecast for any city the user searches for. Cities are stored in client-side storage for the user to return to at will."
-          gitRepURL="https://github.com/jaymehall/travelers-weather-dash"
         />
         <FlipCard
           setShowProject={setShowProject}
