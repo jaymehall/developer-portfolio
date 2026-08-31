@@ -11,7 +11,6 @@ function FlipCard({
   child3,
   child4,
   child5,
-  child6,
   description,
   gitRepURL
 }) {
@@ -27,7 +26,6 @@ function FlipCard({
             child3={child3}
             child4={child4}
             child5={child5}
-            child6={child6}
           />
         </div>
         <div className="flipCardBack">
