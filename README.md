@@ -12,7 +12,7 @@ A responsive, dynamic portfolio site showcasing my projects and online presence 
 - [Technologies](#technologies)
 - [License](#license)
 - [Next Steps](#next-steps)
-- [Questions](#questions)
+- [About the Creator](#about-the-creator)
 
 ## Deployment
 
@@ -46,10 +46,10 @@ Visit the deployed link above to browse my projects, view my resume, and more.
 
 - Update projects regularly
 
-## Questions
+## About the Creator
 
-For additional questions please contact:
+Built to give recruiters and collaborators a fast, honest look at my work as a developer.
 
-- Jayme Hall
-- GitHub: [https://github.com/jaymehall/](https://github.com/jaymehall/)
-- LinkedIn: [https://www.linkedin.com/in/jayme-hall/](https://www.linkedin.com/in/jayme-hall/)
+- LinkedIn: https://www.linkedin.com/in/jayme-hall/
+- GitHub: https://github.com/jaymehall/
+- Website: [https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
