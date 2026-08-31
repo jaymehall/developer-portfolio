@@ -15,7 +15,7 @@ This is a responsive, dynamic Portfolio designed to showcase my projects and onl
   - [Questions](#questions)
 
 ## Deployment
-* https://the-privacy-dev.netlify.app/ 
+* [https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
 
 ## Installation
 ``` npm i ```
