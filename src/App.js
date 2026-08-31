@@ -8,7 +8,6 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Experience from "./components/MiddlePane/Experience/Experience";
-import theprivacydevlogo from "./components/Header/theprivacydevlogo.png"
 
 function App() {
     const [isLoading, setIsLoading] = useState(true);
@@ -20,7 +19,7 @@ function App() {
       }, []);
     
       if (isLoading) {
-        return <div className="preloader"><span><img src={theprivacydevlogo} alt="Jayme Hall logo" /></span><span>Loading...</span></div>;
+        return <div className="preloader"><span className="preloaderName">Jayme Hall</span><span>Loading...</span></div>;
       }
 
     return (
