@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {faLinkedin, faGithubSquare} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelopeSquare} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./footer.css";
 
@@ -9,6 +10,13 @@ function Footer() {
     <div className="footerBg">
       <div className="iconContainer">
         <div className="layer"></div>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="mailto:hjayme@protonmail.com"
+        >
+          <FontAwesomeIcon className="iconLogo" icon={faEnvelopeSquare} />
+        </a>
         <a
           rel="noreferrer"
           target="_blank"
