@@ -16,7 +16,7 @@ function Experience() {
         <Col sm={12} md={5} className="section">
           <h6 style={{ textAlign: "center" }}>
             <a
-              style={{ fontWeight: "bold" }}
+              style={{ fontWeight: "bold", color: "black" }}
               rel="noreferrer"
               target="_blank"
               href="https://www.tripointsolutions.com/"
@@ -33,7 +33,7 @@ function Experience() {
             <span style={{ fontWeight: "bold" }}>Belva AI</span>
           </h6>
           <p className="experienceDescription">
-            As Lead AI Engineer and Engineering Team Lead at Belva.ai, I drove architectural decisions across the platform's React/TypeScript frontend, React Native mobile app, and Python backend. I built a HIPAA-compliant Neo4j knowledge graph from the ground up — OCR and document extraction, entity schemas, and Graph RAG retrieval over legal and medical case data — and architected the company's end-to-end AI evaluation harness, a 3-judge LLM-as-a-judge system running 320+ automated evaluations per release as the mandatory go/no-go gate. I cut per-run LLM cost from $340 to $50 and regression runtime from 4 hours to 2 by parallelizing agent and judge execution, and reduced annual AWS and AI infrastructure spend by nearly $40,000, while maintaining SOC 2 compliance across the platform.
+            As Lead AI Engineer and Engineering Team Lead at Belva AI, I drove architectural decisions across the platform's React/TypeScript frontend, React Native mobile app, and Python backend. I built a HIPAA-compliant Neo4j knowledge graph from the ground up — OCR and document extraction, entity schemas, and Graph RAG retrieval over legal and medical case data — and architected the company's end-to-end AI evaluation harness, a 3-judge LLM-as-a-judge system running 320+ automated evaluations per release as the mandatory go/no-go gate. I cut per-run LLM cost from $340 to $50 and regression runtime from 4 hours to 2 by parallelizing agent and judge execution, and reduced annual AWS and AI infrastructure spend by nearly $40,000, while maintaining SOC 2 compliance across the platform.
           </p>
         </Col>
         {/* <div className="section">
