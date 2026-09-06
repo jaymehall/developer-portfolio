@@ -30,7 +30,7 @@ function MiddlePane() {
           <article>
             <h5 className="sectionTitle">Time-Tested Results</h5>
             <div className="introText">
-              With 8+ years of production experience, I build enterprise financial systems, SaaS platforms, and AI-powered products that hold up under real scrutiny. I engineered the finance module for a federal government ordering system at the National Institutes of Health that processes $4 billion in annual transactions, and I hold a U.S. Federal Security Clearance. I bring the same rigor to AI. I design HIPAA-compliant knowledge graph pipelines and a 3-judge LLM evaluation harness that gates every release for a legal-healthcare AI startup. Whether it's a federal agency or a startup shipping AI to production, I build systems where accuracy matters and correctness is not optional.
+              With 8+ years of production experience, I build enterprise financial systems, SaaS platforms, and AI-powered products that hold up under real scrutiny. I engineered the finance module for a federal government ordering system at the National Institutes of Health that processes $4 billion in annual transactions, and I hold a U.S. Federal Security Clearance. I bring the same rigor to AI. I designed HIPAA-compliant knowledge graph pipelines and a 3-judge LLM evaluation harness that gates every release for a legal-healthcare AI startup. Whether it's a federal agency or a startup shipping AI to production, I build systems where accuracy matters and correctness is not optional.
             </div>
           </article>
           <article className="secondSection">
