@@ -17,7 +17,7 @@ A responsive, dynamic portfolio site showcasing my projects and online presence 
 
 ## Component Structure
 
-Each project on the Projects section is a data-driven `FlipCard` rather than a hardcoded block — adding a project is a matter of adding one entry, not writing new markup:
+Each project on the Projects section is a data-driven `FlipCard` rather than a hardcoded block. Adding a project is a matter of adding one entry, not writing new markup:
 
 ```mermaid
 flowchart TD
