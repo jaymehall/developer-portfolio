@@ -30,17 +30,10 @@ function Experience() {
         </Col>
         <Col sm={12} md={5} className="section">
           <h6 style={{ textAlign: "center" }}>
-            <a
-              style={{ fontWeight: "bold" }}
-              rel="noreferrer"
-              target="_blank"
-              href="https://scopestack.io/?utm_term=scopestack&utm_campaign=branded-and-high-intent-cpq&utm_source=adwords&utm_medium=ppc&hsa_acc=8817741425&hsa_cam=18653863670&hsa_grp=148951896705&hsa_ad=659894493493&hsa_src=g&hsa_tgt=kwd-1711561996522&hsa_kw=scopestack&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwhtWvBhD9ARIsAOP0GoiiQT3aHlr41lpk6pC1wvhx9aY6c1hp-XHHnFZmVlhFem4GGAFMxpsaAhGPEALw_wcB"
-            >
-              ScopeStack
-            </a>
+            <span style={{ fontWeight: "bold" }}>Belva AI</span>
           </h6>
           <p className="experienceDescription">
-            A SaaS platform that automates polished proposals, estimates, and Statements of Work by combining pricing and Level of Effort data. I rebuilt the company's entire frontend in React single-handedly, replacing legacy code with modular, reusable components while preserving the MVC architecture. I built high-performance pricing algorithms in JavaScript that integrated across the application, led the frontend engineering team's technical direction and hiring decisions, and delivered a critical feature for a prospective client that drove $75,000 in new annual revenue.
+            As Lead AI Engineer and Engineering Team Lead at Belva.ai, I drove architectural decisions across the platform's React/TypeScript frontend, React Native mobile app, and Python backend. I built a HIPAA-compliant Neo4j knowledge graph from the ground up — OCR and document extraction, entity schemas, and Graph RAG retrieval over legal and medical case data — and architected the company's end-to-end AI evaluation harness, a 3-judge LLM-as-a-judge system running 320+ automated evaluations per release as the mandatory go/no-go gate. I cut per-run LLM cost from $340 to $50 and regression runtime from 4 hours to 2 by parallelizing agent and judge execution, and reduced annual AWS and AI infrastructure spend by nearly $40,000, while maintaining SOC 2 compliance across the platform.
           </p>
         </Col>
         {/* <div className="section">

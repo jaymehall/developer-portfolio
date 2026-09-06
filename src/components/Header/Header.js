@@ -12,7 +12,7 @@ function Header() {
       <div className="headerOverlay"></div>
       <div className="headerText">
         <h2 className="name" style={{ fontWeight: "bold", marginBottom: "10px" }}>Jayme Hall</h2>
-        <h4 className="subtitle" style={{ padding: "20px", marginTop: "0", fontWeight: "bold" }}>Senior Software Engineer</h4>
+        <h4 className="subtitle" style={{ padding: "20px", marginTop: "0", fontWeight: "bold" }}>Senior Full Stack AI Engineer</h4>
         <Router>
           <Button className="viewWorkBtn" variant="light">
             <HashLink style={{ fontWeight: "bold" }} className="viewWork" to="/#viewWork">
